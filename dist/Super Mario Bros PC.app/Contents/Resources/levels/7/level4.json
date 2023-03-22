@@ -1,0 +1,818 @@
+{
+    "world": "7",
+    "level": "4",
+    "backgroundColor": "#000000",
+    "height": 21,
+    "width": 430,
+    "tileScale": 16,
+    "sky": "./levels/7/level4/level4_sky.csv",
+    "background": "./levels/7/level4/level4_background.csv",
+    "ground": "./levels/7/level4/level4_ground.csv",
+    "renderOnTop": "./levels/7/level4/level4_renderOnTop.csv",
+    "zones": [
+        {
+            "name": "mainLevel",
+            "x": 0,
+            "y": 0,
+            "width": 3584,
+            "height": 240,
+            "theme": "castle",
+            "music": "castle"
+        },
+        {
+            "name": "wrongway1",
+            "x": 3648,
+            "y": 0,
+            "width": 1520,
+            "height": 240,
+            "theme": "",
+            "music": "castle"
+        },
+        {
+            "name": "wrongway2",
+            "x": 5168,
+            "y": 0,
+            "width": 1584,
+            "height": 240,
+            "theme": "",
+            "music": "castle"
+        }
+    ],
+    "spawns": [
+        {
+            "height": 16,
+            "id": 57,
+            "name": "",
+            "rotation": 0,
+            "type": "start",
+            "visible": true,
+            "width": 16,
+            "x": 32,
+            "y": 96
+        },
+        {
+            "height": 48,
+            "id": 1,
+            "name": "wrong1",
+            "properties": [
+                {
+                    "name": "goToPipe",
+                    "type": "string",
+                    "value": "return1"
+                }
+            ],
+            "rotation": 0,
+            "type": "drop",
+            "visible": true,
+            "width": 16,
+            "x": 688,
+            "y": 48
+        },
+        {
+            "height": 48,
+            "id": 2,
+            "name": "wrong2",
+            "properties": [
+                {
+                    "name": "goToPipe",
+                    "type": "string",
+                    "value": "return2"
+                }
+            ],
+            "rotation": 0,
+            "type": "drop",
+            "visible": true,
+            "width": 16,
+            "x": 960,
+            "y": 48
+        },
+        {
+            "height": 32,
+            "id": 3,
+            "name": "wrong3",
+            "properties": [
+                {
+                    "name": "goToPipe",
+                    "type": "string",
+                    "value": "return3"
+                }
+            ],
+            "rotation": 0,
+            "type": "drop",
+            "visible": true,
+            "width": 16,
+            "x": 960,
+            "y": 176
+        },
+        {
+            "height": 48,
+            "id": 4,
+            "name": "wrong4",
+            "properties": [
+                {
+                    "name": "goToPipe",
+                    "type": "string",
+                    "value": "return4"
+                }
+            ],
+            "rotation": 0,
+            "type": "drop",
+            "visible": true,
+            "width": 16,
+            "x": 1264,
+            "y": 160
+        },
+        {
+            "height": 16,
+            "id": 5,
+            "name": "return1",
+            "rotation": 0,
+            "type": "drop",
+            "visible": true,
+            "width": 16,
+            "x": 4080,
+            "y": 80
+        },
+        {
+            "height": 16,
+            "id": 6,
+            "name": "return2",
+            "rotation": 0,
+            "type": "drop",
+            "visible": true,
+            "width": 16,
+            "x": 4352,
+            "y": 80
+        },
+        {
+            "height": 16,
+            "id": 7,
+            "name": "return3",
+            "rotation": 0,
+            "type": "drop",
+            "visible": true,
+            "width": 16,
+            "x": 4352,
+            "y": 192
+        },
+        {
+            "height": 16,
+            "id": 8,
+            "name": "return4",
+            "rotation": 0,
+            "type": "drop",
+            "visible": true,
+            "width": 16,
+            "x": 4656,
+            "y": 192
+        },
+        {
+            "height": 80,
+            "id": 10,
+            "name": "cycle1",
+            "properties": [
+                {
+                    "name": "goToPipe",
+                    "type": "string",
+                    "value": "cycle1Return"
+                }
+            ],
+            "rotation": 0,
+            "type": "drop",
+            "visible": true,
+            "width": 16,
+            "x": 3856,
+            "y": 80
+        },
+        {
+            "height": 112,
+            "id": 12,
+            "name": "cycle1",
+            "properties": [
+                {
+                    "name": "goToPipe",
+                    "type": "string",
+                    "value": "cycle1Return"
+                }
+            ],
+            "rotation": 0,
+            "type": "drop",
+            "visible": true,
+            "width": 16,
+            "x": 5008,
+            "y": 48
+        },
+        {
+            "height": 48,
+            "id": 13,
+            "name": "wrong5",
+            "properties": [
+                {
+                    "name": "goToPipe",
+                    "type": "string",
+                    "value": "return5"
+                }
+            ],
+            "rotation": 0,
+            "type": "drop",
+            "visible": true,
+            "width": 16,
+            "x": 1792,
+            "y": 160
+        },
+        {
+            "height": 48,
+            "id": 14,
+            "name": "wrong6",
+            "properties": [
+                {
+                    "name": "goToPipe",
+                    "type": "string",
+                    "value": "return6"
+                }
+            ],
+            "rotation": 0,
+            "type": "drop",
+            "visible": true,
+            "width": 16,
+            "x": 2016,
+            "y": 48
+        },
+        {
+            "height": 32,
+            "id": 15,
+            "name": "wrong7",
+            "properties": [
+                {
+                    "name": "goToPipe",
+                    "type": "string",
+                    "value": "return7"
+                }
+            ],
+            "rotation": 0,
+            "type": "drop",
+            "visible": true,
+            "width": 16,
+            "x": 2016,
+            "y": 176
+        },
+        {
+            "height": 48,
+            "id": 16,
+            "name": "wrong8",
+            "properties": [
+                {
+                    "name": "goToPipe",
+                    "type": "string",
+                    "value": "return8"
+                }
+            ],
+            "rotation": 0,
+            "type": "drop",
+            "visible": true,
+            "width": 16,
+            "x": 2320,
+            "y": 112
+        },
+        {
+            "height": 16,
+            "id": 17,
+            "name": "return5",
+            "rotation": 0,
+            "type": "drop",
+            "visible": true,
+            "width": 16,
+            "x": 5728,
+            "y": 192
+        },
+        {
+            "height": 16,
+            "id": 18,
+            "name": "return6",
+            "rotation": 0,
+            "type": "drop",
+            "visible": true,
+            "width": 16,
+            "x": 5952,
+            "y": 80
+        },
+        {
+            "height": 16,
+            "id": 19,
+            "name": "return7",
+            "rotation": 0,
+            "type": "drop",
+            "visible": true,
+            "width": 16,
+            "x": 5952,
+            "y": 192
+        },
+        {
+            "height": 16,
+            "id": 20,
+            "name": "return8",
+            "rotation": 0,
+            "type": "drop",
+            "visible": true,
+            "width": 16,
+            "x": 6256,
+            "y": 144
+        },
+        {
+            "height": 112,
+            "id": 21,
+            "name": "cycle2",
+            "properties": [
+                {
+                    "name": "goToPipe",
+                    "type": "string",
+                    "value": "cycle2Return"
+                }
+            ],
+            "rotation": 0,
+            "type": "drop",
+            "visible": true,
+            "width": 16,
+            "x": 5424,
+            "y": 48
+        },
+        {
+            "height": 112,
+            "id": 23,
+            "name": "cycle2",
+            "properties": [
+                {
+                    "name": "goToPipe",
+                    "type": "string",
+                    "value": "cycle2Return"
+                }
+            ],
+            "rotation": 0,
+            "type": "drop",
+            "visible": true,
+            "width": 16,
+            "x": 6544,
+            "y": 48
+        },
+        {
+            "height": 16,
+            "id": 25,
+            "name": "",
+            "rotation": 0,
+            "type": "fireBreath",
+            "visible": true,
+            "width": 16,
+            "x": 2944,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 26,
+            "name": "",
+            "properties": [
+                {
+                    "name": "clockwise",
+                    "type": "bool",
+                    "value": true
+                }
+            ],
+            "rotation": 0,
+            "type": "fireBar",
+            "visible": true,
+            "width": 16,
+            "x": 1648,
+            "y": 112
+        },
+        {
+            "height": 16,
+            "id": 27,
+            "name": "",
+            "properties": [
+                {
+                    "name": "clockwise",
+                    "type": "bool",
+                    "value": true
+                }
+            ],
+            "rotation": 0,
+            "type": "fireBar",
+            "visible": true,
+            "width": 16,
+            "x": 5584,
+            "y": 112
+        },
+        {
+            "height": 16,
+            "id": 28,
+            "name": "",
+            "rotation": 0,
+            "type": "lava",
+            "visible": true,
+            "width": 48,
+            "x": 5536,
+            "y": 208
+        },
+        {
+            "height": 16,
+            "id": 29,
+            "name": "",
+            "rotation": 0,
+            "type": "lava",
+            "visible": true,
+            "width": 48,
+            "x": 5600,
+            "y": 208
+        },
+        {
+            "height": 16,
+            "id": 30,
+            "name": "",
+            "rotation": 0,
+            "type": "lava",
+            "visible": true,
+            "width": 208,
+            "x": 3072,
+            "y": 208
+        },
+        {
+            "height": 16,
+            "id": 31,
+            "name": "",
+            "rotation": 0,
+            "type": "podoboo",
+            "visible": true,
+            "width": 16,
+            "x": 3136,
+            "y": 240
+        },
+        {
+            "height": 16,
+            "id": 32,
+            "name": "",
+            "rotation": 0,
+            "type": "lava",
+            "visible": true,
+            "width": 48,
+            "x": 1600,
+            "y": 208
+        },
+        {
+            "height": 16,
+            "id": 33,
+            "name": "",
+            "rotation": 0,
+            "type": "lava",
+            "visible": true,
+            "width": 48,
+            "x": 1664,
+            "y": 208
+        },
+        {
+            "height": 16,
+            "id": 34,
+            "name": "",
+            "rotation": 0,
+            "type": "lava",
+            "visible": true,
+            "width": 176,
+            "x": 256,
+            "y": 208
+        },
+        {
+            "height": 16,
+            "id": 35,
+            "name": "",
+            "rotation": 0,
+            "type": "podoboo",
+            "visible": true,
+            "width": 16,
+            "x": 320,
+            "y": 240
+        },
+        {
+            "height": 16,
+            "id": 36,
+            "name": "",
+            "rotation": 0,
+            "type": "dropPlatform",
+            "visible": true,
+            "width": 32,
+            "x": 288,
+            "y": 112
+        },
+        {
+            "height": 16,
+            "id": 37,
+            "name": "",
+            "rotation": 0,
+            "type": "dropPlatform",
+            "visible": true,
+            "width": 32,
+            "x": 352,
+            "y": 128
+        },
+        {
+            "height": 16,
+            "id": 38,
+            "name": "axe1_bowser",
+            "properties": [
+                {
+                    "name": "hard",
+                    "type": "bool",
+                    "value": true
+                }
+            ],
+            "rotation": 0,
+            "type": "bowser",
+            "visible": true,
+            "width": 16,
+            "x": 3200,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 39,
+            "name": "axe1",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 2
+                }
+            ],
+            "rotation": 0,
+            "type": "axe",
+            "visible": true,
+            "width": 16,
+            "x": 3280,
+            "y": 128
+        },
+        {
+            "height": 16,
+            "id": 40,
+            "name": "axe1",
+            "properties": [
+                {
+                    "name": "order",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "castleBridge",
+            "visible": true,
+            "width": 16,
+            "x": 3072,
+            "y": 160
+        },
+        {
+            "height": 16,
+            "id": 41,
+            "name": "axe1",
+            "properties": [
+                {
+                    "name": "order",
+                    "type": "int",
+                    "value": 2
+                }
+            ],
+            "rotation": 0,
+            "type": "castleBridge",
+            "visible": true,
+            "width": 16,
+            "x": 3088,
+            "y": 160
+        },
+        {
+            "height": 16,
+            "id": 42,
+            "name": "axe1",
+            "properties": [
+                {
+                    "name": "order",
+                    "type": "int",
+                    "value": 3
+                }
+            ],
+            "rotation": 0,
+            "type": "castleBridge",
+            "visible": true,
+            "width": 16,
+            "x": 3104,
+            "y": 160
+        },
+        {
+            "height": 16,
+            "id": 43,
+            "name": "axe1",
+            "properties": [
+                {
+                    "name": "order",
+                    "type": "int",
+                    "value": 4
+                }
+            ],
+            "rotation": 0,
+            "type": "castleBridge",
+            "visible": true,
+            "width": 16,
+            "x": 3120,
+            "y": 160
+        },
+        {
+            "height": 16,
+            "id": 44,
+            "name": "axe1",
+            "properties": [
+                {
+                    "name": "order",
+                    "type": "int",
+                    "value": 5
+                }
+            ],
+            "rotation": 0,
+            "type": "castleBridge",
+            "visible": true,
+            "width": 16,
+            "x": 3136,
+            "y": 160
+        },
+        {
+            "height": 16,
+            "id": 45,
+            "name": "axe1",
+            "properties": [
+                {
+                    "name": "order",
+                    "type": "int",
+                    "value": 6
+                }
+            ],
+            "rotation": 0,
+            "type": "castleBridge",
+            "visible": true,
+            "width": 16,
+            "x": 3152,
+            "y": 160
+        },
+        {
+            "height": 16,
+            "id": 46,
+            "name": "axe1",
+            "properties": [
+                {
+                    "name": "order",
+                    "type": "int",
+                    "value": 7
+                }
+            ],
+            "rotation": 0,
+            "type": "castleBridge",
+            "visible": true,
+            "width": 16,
+            "x": 3168,
+            "y": 160
+        },
+        {
+            "height": 16,
+            "id": 47,
+            "name": "axe1",
+            "properties": [
+                {
+                    "name": "order",
+                    "type": "int",
+                    "value": 8
+                }
+            ],
+            "rotation": 0,
+            "type": "castleBridge",
+            "visible": true,
+            "width": 16,
+            "x": 3184,
+            "y": 160
+        },
+        {
+            "height": 16,
+            "id": 48,
+            "name": "axe1",
+            "properties": [
+                {
+                    "name": "order",
+                    "type": "int",
+                    "value": 9
+                }
+            ],
+            "rotation": 0,
+            "type": "castleBridge",
+            "visible": true,
+            "width": 16,
+            "x": 3200,
+            "y": 160
+        },
+        {
+            "height": 16,
+            "id": 49,
+            "name": "axe1",
+            "properties": [
+                {
+                    "name": "order",
+                    "type": "int",
+                    "value": 10
+                }
+            ],
+            "rotation": 0,
+            "type": "castleBridge",
+            "visible": true,
+            "width": 16,
+            "x": 3216,
+            "y": 160
+        },
+        {
+            "height": 16,
+            "id": 50,
+            "name": "axe1",
+            "properties": [
+                {
+                    "name": "order",
+                    "type": "int",
+                    "value": 11
+                }
+            ],
+            "rotation": 0,
+            "type": "castleBridge",
+            "visible": true,
+            "width": 16,
+            "x": 3232,
+            "y": 160
+        },
+        {
+            "height": 16,
+            "id": 51,
+            "name": "axe1",
+            "properties": [
+                {
+                    "name": "order",
+                    "type": "int",
+                    "value": 12
+                }
+            ],
+            "rotation": 0,
+            "type": "castleBridge",
+            "visible": true,
+            "width": 16,
+            "x": 3248,
+            "y": 160
+        },
+        {
+            "height": 16,
+            "id": 52,
+            "name": "axe1",
+            "properties": [
+                {
+                    "name": "order",
+                    "type": "int",
+                    "value": 13
+                }
+            ],
+            "rotation": 0,
+            "type": "castleBridge",
+            "visible": true,
+            "width": 16,
+            "x": 3264,
+            "y": 160
+        },
+        {
+            "height": 16,
+            "id": 53,
+            "name": "toad",
+            "rotation": 0,
+            "type": "npc",
+            "visible": true,
+            "width": 16,
+            "x": 3472,
+            "y": 192
+        },
+        {
+            "height": 16,
+            "id": 58,
+            "name": "cycle1Return",
+            "rotation": 0,
+            "type": "drop",
+            "visible": true,
+            "width": 16,
+            "x": 480,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 59,
+            "name": "cycle2Return",
+            "rotation": 0,
+            "type": "drop",
+            "visible": true,
+            "width": 16,
+            "x": 1504,
+            "y": 144
+        }
+    ]
+}

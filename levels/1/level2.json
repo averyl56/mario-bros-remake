@@ -1,0 +1,6973 @@
+{
+    "world": "1",
+    "level": "2",
+    "backgroundColor": "#4f85e9",
+    "height": 21,
+    "width": 296,
+    "tileScale": 16,
+    "sky": "./levels/1/level2/level2_sky.csv",
+    "background": "./levels/1/level2/level2_background.csv",
+    "ground": "./levels/1/level2/level2_ground.csv",
+    "renderOnTop": "./levels/1/level2/level2_renderOnTop.csv",
+    "zones": [
+        {
+            "name": "subLevel1",
+            "x": 0,
+            "y": 0,
+            "width": 320,
+            "height": 240,
+            "theme": "overworld",
+            "music": "overworld"
+        },
+        {
+            "name": "mainLevel",
+            "x": 1536,
+            "y": 0,
+            "width": 3072,
+            "height": 240,
+            "theme": "underground",
+            "music": "underground"
+        },
+        {
+            "name": "subLevel2",
+            "x": 432,
+            "y": 0,
+            "width": 320,
+            "height": 240,
+            "theme": "underground",
+            "music": "underground"
+        },
+        {
+            "name": "subLevel3",
+            "x": 816,
+            "y": 0,
+            "width": 672,
+            "height": 240,
+            "theme": "overworld",
+            "music": "overworld"
+        }
+    ],
+    "spawns": [
+        {
+            "height": 16,
+            "id": 35,
+            "name": "playerSpawn",
+            "rotation": 0,
+            "type": "start",
+            "visible": true,
+            "width": 16,
+            "x": 32,
+            "y": 192
+        },
+        {
+            "height": 32,
+            "id": 36,
+            "name": "entrance1",
+            "properties": [
+                {
+                    "name": "direction",
+                    "type": "string",
+                    "value": "right"
+                },
+                {
+                    "name": "goToPipe",
+                    "type": "string",
+                    "value": "exit1"
+                }
+            ],
+            "rotation": 0,
+            "type": "pipe",
+            "visible": true,
+            "width": 32,
+            "x": 160,
+            "y": 176
+        },
+        {
+            "height": 16,
+            "id": 38,
+            "name": "exit1",
+            "rotation": 0,
+            "type": "drop",
+            "visible": true,
+            "width": 16,
+            "x": 1584,
+            "y": 32
+        },
+        {
+            "height": 32,
+            "id": 39,
+            "name": "entrance2",
+            "properties": [
+                {
+                    "name": "direction",
+                    "type": "string",
+                    "value": "down"
+                },
+                {
+                    "name": "enemy",
+                    "type": "string",
+                    "value": "plant"
+                },
+                {
+                    "name": "goToPipe",
+                    "type": "string",
+                    "value": "exit2"
+                },
+                {
+                    "name": "hasEnemy",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "pipe",
+            "visible": true,
+            "width": 32,
+            "x": 3184,
+            "y": 160
+        },
+        {
+            "height": 16,
+            "id": 41,
+            "name": "exit2",
+            "rotation": 0,
+            "type": "drop",
+            "visible": true,
+            "width": 16,
+            "x": 480,
+            "y": 32
+        },
+        {
+            "height": 32,
+            "id": 42,
+            "name": "entrance3",
+            "properties": [
+                {
+                    "name": "direction",
+                    "type": "string",
+                    "value": "right"
+                },
+                {
+                    "name": "goToPipe",
+                    "type": "string",
+                    "value": "exit3"
+                },
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "pipe",
+            "visible": true,
+            "width": 32,
+            "x": 672,
+            "y": 176
+        },
+        {
+            "height": 32,
+            "id": 43,
+            "name": "exit3",
+            "properties": [
+                {
+                    "name": "direction",
+                    "type": "string",
+                    "value": "down"
+                },
+                {
+                    "name": "enemy",
+                    "type": "string",
+                    "value": "plant"
+                },
+                {
+                    "name": "hasEnemy",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "pipe",
+            "visible": true,
+            "width": 32,
+            "x": 3376,
+            "y": 176
+        },
+        {
+            "height": 32,
+            "id": 44,
+            "name": "entrance4",
+            "properties": [
+                {
+                    "name": "direction",
+                    "type": "string",
+                    "value": "right"
+                },
+                {
+                    "name": "goToPipe",
+                    "type": "string",
+                    "value": "exit4"
+                }
+            ],
+            "rotation": 0,
+            "type": "pipe",
+            "visible": true,
+            "width": 32,
+            "x": 4192,
+            "y": 128
+        },
+        {
+            "height": 32,
+            "id": 45,
+            "name": "exit4",
+            "properties": [
+                {
+                    "name": "direction",
+                    "type": "string",
+                    "value": "down"
+                },
+                {
+                    "name": "enemy",
+                    "type": "string",
+                    "value": "plant"
+                },
+                {
+                    "name": "hasEnemy",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "pipe",
+            "visible": true,
+            "width": 32,
+            "x": 864,
+            "y": 176
+        },
+        {
+            "height": 160,
+            "id": 46,
+            "name": "flag",
+            "rotation": 0,
+            "type": "flagpole",
+            "visible": true,
+            "width": 16,
+            "x": 1168,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 47,
+            "name": "playerGoal",
+            "rotation": 0,
+            "type": "finish",
+            "visible": true,
+            "width": 16,
+            "x": 1296,
+            "y": 192
+        },
+        {
+            "height": 16,
+            "id": 48,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "item",
+                    "type": "string",
+                    "value": "redMushroom"
+                },
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "block",
+            "visible": true,
+            "width": 16,
+            "x": 1696,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 50,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "item",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "block",
+            "visible": true,
+            "width": 16,
+            "x": 1712,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 51,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "item",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "block",
+            "visible": true,
+            "width": 16,
+            "x": 1728,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 52,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "item",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "block",
+            "visible": true,
+            "width": 16,
+            "x": 1744,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 53,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "item",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "block",
+            "visible": true,
+            "width": 16,
+            "x": 1760,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 54,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 1632,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 55,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 1648,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 56,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 1664,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 57,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 1728,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 58,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 1680,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 59,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 1696,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 60,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 1712,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 61,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 1744,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 62,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 1760,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 63,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 1776,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 64,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 1792,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 65,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 1808,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 66,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 1824,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 67,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 1840,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 68,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 1856,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 69,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 1872,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 70,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 1888,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 71,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 1904,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 72,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 1920,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 73,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 1936,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 74,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 1952,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 75,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 1968,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 76,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 1984,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 77,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2000,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 78,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2016,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 79,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "breakable",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2032,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 80,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2048,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 81,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2064,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 82,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2080,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 83,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2096,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 84,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2112,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 85,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2128,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 86,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2144,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 87,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2160,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 88,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2176,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 89,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2192,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 90,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2208,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 93,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2224,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 94,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2240,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 95,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2256,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 96,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2272,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 97,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2288,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 98,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2304,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 99,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2320,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 100,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2336,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 101,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2352,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 102,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2368,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 103,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2384,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 104,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2400,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 105,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2464,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 106,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2480,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 107,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2496,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 108,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2512,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 109,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2528,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 110,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2544,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 111,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2560,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 112,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2576,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 113,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2592,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 114,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2608,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 115,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2624,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 116,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2688,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 117,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2704,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 118,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2720,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 119,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2736,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 120,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2752,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 121,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2768,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 122,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2784,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 123,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2800,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 124,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2816,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 125,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2832,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 126,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2848,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 127,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3024,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 128,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3040,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 129,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3056,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 130,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3072,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 131,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3088,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 132,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3104,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 133,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3120,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 134,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3136,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 135,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3152,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 136,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3168,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 137,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3184,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 138,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3248,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 139,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3264,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 140,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3280,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 141,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3296,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 142,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3312,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 143,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3328,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 144,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3344,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 145,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3360,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 146,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3376,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 147,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3392,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 148,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3408,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 149,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3456,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 150,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3472,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 151,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3488,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 152,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3504,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 153,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3520,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 154,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3536,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 155,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3552,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 156,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3568,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 157,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3584,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 158,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3600,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 159,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3616,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 182,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2416,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 183,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2432,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 184,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2448,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 185,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2640,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 186,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2656,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 187,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2672,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 188,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2864,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 189,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2880,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 190,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2896,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 191,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2912,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 192,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2928,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 193,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2944,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 194,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2976,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 195,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3008,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 196,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2992,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 197,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "breakable",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "name": "item",
+                    "type": "string",
+                    "value": "greenMushroom"
+                },
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2960,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 198,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3200,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 199,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3216,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 200,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3232,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 201,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3424,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 202,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3440,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 203,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3632,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 204,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3648,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 205,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3680,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 206,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3696,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 207,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3712,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 208,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3664,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 209,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3728,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 210,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 4112,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 211,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 4128,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 212,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 4144,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 213,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 4160,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 214,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 4176,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 215,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 4192,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 216,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 4208,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 217,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "breakable",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2000,
+            "y": 128
+        },
+        {
+            "height": 16,
+            "id": 218,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2160,
+            "y": 112
+        },
+        {
+            "height": 16,
+            "id": 219,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2160,
+            "y": 128
+        },
+        {
+            "height": 16,
+            "id": 220,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2160,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 221,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2176,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 222,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2192,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 223,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2192,
+            "y": 128
+        },
+        {
+            "height": 16,
+            "id": 224,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2192,
+            "y": 112
+        },
+        {
+            "height": 16,
+            "id": 225,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2208,
+            "y": 112
+        },
+        {
+            "height": 16,
+            "id": 226,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2224,
+            "y": 112
+        },
+        {
+            "height": 16,
+            "id": 227,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2240,
+            "y": 112
+        },
+        {
+            "height": 16,
+            "id": 228,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2240,
+            "y": 128
+        },
+        {
+            "height": 16,
+            "id": 229,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2240,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 230,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2256,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 231,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2272,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 232,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2272,
+            "y": 128
+        },
+        {
+            "height": 16,
+            "id": 234,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2400,
+            "y": 176
+        },
+        {
+            "height": 16,
+            "id": 235,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2416,
+            "y": 176
+        },
+        {
+            "height": 16,
+            "id": 236,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2416,
+            "y": 160
+        },
+        {
+            "height": 16,
+            "id": 237,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2416,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 238,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2400,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 239,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2400,
+            "y": 160
+        },
+        {
+            "height": 16,
+            "id": 240,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2384,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 241,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2384,
+            "y": 128
+        },
+        {
+            "height": 16,
+            "id": 243,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2384,
+            "y": 112
+        },
+        {
+            "height": 16,
+            "id": 244,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2384,
+            "y": 96
+        },
+        {
+            "height": 16,
+            "id": 245,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2384,
+            "y": 80
+        },
+        {
+            "height": 16,
+            "id": 246,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2368,
+            "y": 80
+        },
+        {
+            "height": 16,
+            "id": 247,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2368,
+            "y": 96
+        },
+        {
+            "height": 16,
+            "id": 248,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2368,
+            "y": 112
+        },
+        {
+            "height": 16,
+            "id": 249,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2368,
+            "y": 128
+        },
+        {
+            "height": 16,
+            "id": 250,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2368,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 251,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2400,
+            "y": 64
+        },
+        {
+            "height": 16,
+            "id": 252,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2400,
+            "y": 48
+        },
+        {
+            "height": 16,
+            "id": 253,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2416,
+            "y": 48
+        },
+        {
+            "height": 16,
+            "id": 254,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2416,
+            "y": 64
+        },
+        {
+            "height": 16,
+            "id": 255,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2464,
+            "y": 48
+        },
+        {
+            "height": 16,
+            "id": 256,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2480,
+            "y": 48
+        },
+        {
+            "height": 16,
+            "id": 257,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2496,
+            "y": 48
+        },
+        {
+            "height": 16,
+            "id": 258,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "breakable",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2528,
+            "y": 48
+        },
+        {
+            "height": 16,
+            "id": 259,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2512,
+            "y": 48
+        },
+        {
+            "height": 16,
+            "id": 260,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2544,
+            "y": 48
+        },
+        {
+            "height": 16,
+            "id": 261,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2544,
+            "y": 64
+        },
+        {
+            "height": 16,
+            "id": 262,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2528,
+            "y": 64
+        },
+        {
+            "height": 16,
+            "id": 263,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2512,
+            "y": 64
+        },
+        {
+            "height": 16,
+            "id": 264,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2496,
+            "y": 64
+        },
+        {
+            "height": 16,
+            "id": 265,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2480,
+            "y": 64
+        },
+        {
+            "height": 16,
+            "id": 266,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2464,
+            "y": 64
+        },
+        {
+            "height": 16,
+            "id": 267,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2528,
+            "y": 80
+        },
+        {
+            "height": 16,
+            "id": 268,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2544,
+            "y": 80
+        },
+        {
+            "height": 16,
+            "id": 269,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2544,
+            "y": 96
+        },
+        {
+            "height": 16,
+            "id": 270,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2528,
+            "y": 96
+        },
+        {
+            "height": 16,
+            "id": 271,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2528,
+            "y": 112
+        },
+        {
+            "height": 16,
+            "id": 272,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2544,
+            "y": 112
+        },
+        {
+            "height": 16,
+            "id": 273,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2544,
+            "y": 128
+        },
+        {
+            "height": 16,
+            "id": 274,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2528,
+            "y": 128
+        },
+        {
+            "height": 16,
+            "id": 275,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2544,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 276,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2528,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 277,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2512,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 278,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2496,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 279,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2480,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 280,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2464,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 281,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2592,
+            "y": 48
+        },
+        {
+            "height": 16,
+            "id": 282,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2608,
+            "y": 48
+        },
+        {
+            "height": 16,
+            "id": 283,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2624,
+            "y": 48
+        },
+        {
+            "height": 16,
+            "id": 284,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2640,
+            "y": 48
+        },
+        {
+            "height": 16,
+            "id": 285,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2640,
+            "y": 64
+        },
+        {
+            "height": 16,
+            "id": 286,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2624,
+            "y": 64
+        },
+        {
+            "height": 16,
+            "id": 287,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2608,
+            "y": 64
+        },
+        {
+            "height": 16,
+            "id": 288,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2592,
+            "y": 64
+        },
+        {
+            "height": 16,
+            "id": 289,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2608,
+            "y": 80
+        },
+        {
+            "height": 16,
+            "id": 290,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2608,
+            "y": 112
+        },
+        {
+            "height": 16,
+            "id": 292,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2608,
+            "y": 96
+        },
+        {
+            "height": 16,
+            "id": 293,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2608,
+            "y": 128
+        },
+        {
+            "height": 16,
+            "id": 294,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2608,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 295,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2624,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 296,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2640,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 297,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "breakable",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "name": "item",
+                    "type": "string",
+                    "value": "redMushroom"
+                },
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2640,
+            "y": 128
+        },
+        {
+            "height": 16,
+            "id": 298,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2688,
+            "y": 80
+        },
+        {
+            "height": 16,
+            "id": 299,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2704,
+            "y": 80
+        },
+        {
+            "height": 16,
+            "id": 300,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2704,
+            "y": 96
+        },
+        {
+            "height": 16,
+            "id": 301,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2688,
+            "y": 96
+        },
+        {
+            "height": 16,
+            "id": 302,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2688,
+            "y": 112
+        },
+        {
+            "height": 16,
+            "id": 303,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2704,
+            "y": 112
+        },
+        {
+            "height": 16,
+            "id": 304,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2688,
+            "y": 128
+        },
+        {
+            "height": 16,
+            "id": 305,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2688,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 306,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2704,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 307,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "breakable",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2704,
+            "y": 128
+        },
+        {
+            "height": 16,
+            "id": 308,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2752,
+            "y": 48
+        },
+        {
+            "height": 16,
+            "id": 309,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2768,
+            "y": 48
+        },
+        {
+            "height": 16,
+            "id": 310,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2784,
+            "y": 48
+        },
+        {
+            "height": 16,
+            "id": 311,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2800,
+            "y": 48
+        },
+        {
+            "height": 16,
+            "id": 312,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2800,
+            "y": 64
+        },
+        {
+            "height": 16,
+            "id": 313,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2784,
+            "y": 64
+        },
+        {
+            "height": 16,
+            "id": 314,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2768,
+            "y": 64
+        },
+        {
+            "height": 16,
+            "id": 315,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2752,
+            "y": 64
+        },
+        {
+            "height": 16,
+            "id": 316,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2752,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 317,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2768,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 318,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2784,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 319,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2800,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 320,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2880,
+            "y": 112
+        },
+        {
+            "height": 16,
+            "id": 321,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2896,
+            "y": 112
+        },
+        {
+            "height": 16,
+            "id": 322,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2912,
+            "y": 112
+        },
+        {
+            "height": 16,
+            "id": 323,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2928,
+            "y": 112
+        },
+        {
+            "height": 16,
+            "id": 324,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2944,
+            "y": 112
+        },
+        {
+            "height": 16,
+            "id": 325,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2960,
+            "y": 112
+        },
+        {
+            "height": 16,
+            "id": 326,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2960,
+            "y": 128
+        },
+        {
+            "height": 16,
+            "id": 327,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2944,
+            "y": 128
+        },
+        {
+            "height": 16,
+            "id": 328,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2928,
+            "y": 128
+        },
+        {
+            "height": 16,
+            "id": 329,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2912,
+            "y": 128
+        },
+        {
+            "height": 16,
+            "id": 330,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2896,
+            "y": 128
+        },
+        {
+            "height": 16,
+            "id": 331,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2880,
+            "y": 128
+        },
+        {
+            "height": 16,
+            "id": 338,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3488,
+            "y": 160
+        },
+        {
+            "height": 16,
+            "id": 339,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3504,
+            "y": 160
+        },
+        {
+            "height": 16,
+            "id": 340,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3504,
+            "y": 176
+        },
+        {
+            "height": 16,
+            "id": 342,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3488,
+            "y": 176
+        },
+        {
+            "height": 16,
+            "id": 343,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3488,
+            "y": 192
+        },
+        {
+            "height": 16,
+            "id": 344,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3504,
+            "y": 192
+        },
+        {
+            "height": 16,
+            "id": 345,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3856,
+            "y": 128
+        },
+        {
+            "height": 16,
+            "id": 346,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3872,
+            "y": 128
+        },
+        {
+            "height": 16,
+            "id": 348,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3904,
+            "y": 128
+        },
+        {
+            "height": 16,
+            "id": 349,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3888,
+            "y": 128
+        },
+        {
+            "height": 16,
+            "id": 350,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3920,
+            "y": 128
+        },
+        {
+            "height": 16,
+            "id": 351,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "breakable",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "name": "item",
+                    "type": "string",
+                    "value": "redMushroom"
+                },
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 3936,
+            "y": 128
+        },
+        {
+            "height": 16,
+            "id": 352,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "breakable",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 512,
+            "y": 80
+        },
+        {
+            "height": 16,
+            "id": 353,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "breakable",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 528,
+            "y": 80
+        },
+        {
+            "height": 16,
+            "id": 354,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "breakable",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 544,
+            "y": 80
+        },
+        {
+            "height": 16,
+            "id": 355,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "breakable",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 560,
+            "y": 80
+        },
+        {
+            "height": 16,
+            "id": 356,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "breakable",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 576,
+            "y": 80
+        },
+        {
+            "height": 16,
+            "id": 357,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "breakable",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 592,
+            "y": 80
+        },
+        {
+            "height": 16,
+            "id": 358,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "breakable",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 608,
+            "y": 80
+        },
+        {
+            "height": 16,
+            "id": 359,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "breakable",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 624,
+            "y": 80
+        },
+        {
+            "height": 16,
+            "id": 360,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "breakable",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 640,
+            "y": 80
+        },
+        {
+            "height": 16,
+            "id": 361,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "breakable",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                },
+                {
+                    "name": "hitsLeft",
+                    "type": "int",
+                    "value": 13
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 656,
+            "y": 80
+        },
+        {
+            "height": 16,
+            "id": 362,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 512,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 363,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 528,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 364,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 544,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 365,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 560,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 366,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 576,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 367,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 592,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 368,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 608,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 369,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 624,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 370,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 640,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 371,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "breakable",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 656,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 372,
+            "name": "item",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 2192,
+            "y": 80
+        },
+        {
+            "height": 16,
+            "id": 373,
+            "name": "item",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 2208,
+            "y": 80
+        },
+        {
+            "height": 16,
+            "id": 374,
+            "name": "item",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 2224,
+            "y": 80
+        },
+        {
+            "height": 16,
+            "id": 375,
+            "name": "item",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 2240,
+            "y": 80
+        },
+        {
+            "height": 16,
+            "id": 376,
+            "name": "item",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 2256,
+            "y": 128
+        },
+        {
+            "height": 16,
+            "id": 377,
+            "name": "item",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 2176,
+            "y": 128
+        },
+        {
+            "height": 16,
+            "id": 418,
+            "name": "enemy",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "goomba",
+            "visible": true,
+            "width": 16,
+            "x": 3728,
+            "y": 128
+        },
+        {
+            "height": 16,
+            "id": 419,
+            "name": "enemy",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "goomba",
+            "visible": true,
+            "width": 16,
+            "x": 3696,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 420,
+            "name": "enemy",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "koopa",
+            "visible": true,
+            "width": 16,
+            "x": 2240,
+            "y": 192
+        },
+        {
+            "height": 16,
+            "id": 421,
+            "name": "enemy",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "koopa",
+            "visible": true,
+            "width": 16,
+            "x": 2272,
+            "y": 192
+        },
+        {
+            "height": 16,
+            "id": 422,
+            "name": "enemy",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "koopa",
+            "visible": true,
+            "width": 16,
+            "x": 2480,
+            "y": 192
+        },
+        {
+            "height": 16,
+            "id": 423,
+            "name": "enemy",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 3
+                }
+            ],
+            "rotation": 0,
+            "type": "koopa",
+            "visible": true,
+            "width": 16,
+            "x": 3872,
+            "y": 192
+        },
+        {
+            "height": 32,
+            "id": 424,
+            "name": "",
+            "properties": [
+                {
+                    "name": "direction",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "name": "enemy",
+                    "type": "string",
+                    "value": "plant"
+                },
+                {
+                    "name": "hasEnemy",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "pipe",
+            "visible": true,
+            "width": 32,
+            "x": 3280,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 425,
+            "name": "object",
+            "properties": [
+                {
+                    "name": "interval",
+                    "type": "float",
+                    "value": 100
+                },
+                {
+                    "name": "ySpeed",
+                    "type": "float",
+                    "value": 4
+                }
+            ],
+            "rotation": 0,
+            "type": "movingPlatformSpawner",
+            "visible": true,
+            "width": 48,
+            "x": 3776,
+            "y": 0
+        },
+        {
+            "height": 16,
+            "id": 426,
+            "name": "object",
+            "properties": [
+                {
+                    "name": "interval",
+                    "type": "float",
+                    "value": 100
+                },
+                {
+                    "name": "ySpeed",
+                    "type": "float",
+                    "value": -4
+                }
+            ],
+            "rotation": 0,
+            "type": "movingPlatformSpawner",
+            "visible": true,
+            "width": 48,
+            "x": 4016,
+            "y": 240
+        },
+        {
+            "height": 16,
+            "id": 427,
+            "name": "object",
+            "properties": [
+                {
+                    "name": "line",
+                    "type": "string",
+                    "value": "WELCOME TO WARP ZONE!"
+                }
+            ],
+            "rotation": 0,
+            "type": "textbox",
+            "visible": true,
+            "width": 176,
+            "x": 4384,
+            "y": 96
+        },
+        {
+            "height": 16,
+            "id": 428,
+            "name": "object",
+            "properties": [
+                {
+                    "name": "line",
+                    "type": "string",
+                    "value": " 4"
+                }
+            ],
+            "rotation": 0,
+            "type": "textbox",
+            "visible": true,
+            "width": 16,
+            "x": 4384,
+            "y": 128
+        },
+        {
+            "height": 16,
+            "id": 429,
+            "name": "object",
+            "properties": [
+                {
+                    "name": "line",
+                    "type": "string",
+                    "value": " 3"
+                }
+            ],
+            "rotation": 0,
+            "type": "textbox",
+            "visible": true,
+            "width": 16,
+            "x": 4448,
+            "y": 128
+        },
+        {
+            "height": 16,
+            "id": 430,
+            "name": "object",
+            "properties": [
+                {
+                    "name": "line",
+                    "type": "string",
+                    "value": " 2"
+                }
+            ],
+            "rotation": 0,
+            "type": "textbox",
+            "visible": true,
+            "width": 16,
+            "x": 4512,
+            "y": 128
+        },
+        {
+            "height": 32,
+            "id": 431,
+            "name": "world4Pipe",
+            "properties": [
+                {
+                    "name": "world",
+                    "type": "int",
+                    "value": 4
+                }
+            ],
+            "rotation": 0,
+            "type": "worldPipe",
+            "visible": true,
+            "width": 32,
+            "x": 4384,
+            "y": 160
+        },
+        {
+            "height": 32,
+            "id": 432,
+            "name": "world3Pipe",
+            "properties": [
+                {
+                    "name": "world",
+                    "type": "int",
+                    "value": 3
+                }
+            ],
+            "rotation": 0,
+            "type": "worldPipe",
+            "visible": true,
+            "width": 32,
+            "x": 4448,
+            "y": 160
+        },
+        {
+            "height": 32,
+            "id": 433,
+            "name": "world2Pipe",
+            "properties": [
+                {
+                    "name": "world",
+                    "type": "int",
+                    "value": 2
+                }
+            ],
+            "rotation": 0,
+            "type": "worldPipe",
+            "visible": true,
+            "width": 32,
+            "x": 4512,
+            "y": 160
+        },
+        {
+            "height": 16,
+            "id": 436,
+            "name": "",
+            "rotation": 0,
+            "type": "pit",
+            "visible": true,
+            "width": 48,
+            "x": 2816,
+            "y": 288
+        },
+        {
+            "height": 16,
+            "id": 437,
+            "name": "",
+            "rotation": 0,
+            "type": "pit",
+            "visible": true,
+            "width": 32,
+            "x": 3456,
+            "y": 288
+        },
+        {
+            "height": 16,
+            "id": 439,
+            "name": "",
+            "rotation": 0,
+            "type": "pit",
+            "visible": true,
+            "width": 32,
+            "x": 3520,
+            "y": 288
+        },
+        {
+            "height": 16,
+            "id": 440,
+            "name": "",
+            "rotation": 0,
+            "type": "pit",
+            "visible": true,
+            "width": 112,
+            "x": 3744,
+            "y": 288
+        },
+        {
+            "height": 16,
+            "id": 441,
+            "name": "",
+            "rotation": 0,
+            "type": "pit",
+            "visible": true,
+            "width": 112,
+            "x": 3984,
+            "y": 288
+        },
+        {
+            "height": 16,
+            "id": 378,
+            "name": "item",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 2464,
+            "y": 128
+        },
+        {
+            "height": 16,
+            "id": 379,
+            "name": "item",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 2480,
+            "y": 128
+        },
+        {
+            "height": 16,
+            "id": 380,
+            "name": "item",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 2496,
+            "y": 128
+        },
+        {
+            "height": 16,
+            "id": 381,
+            "name": "item",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 2512,
+            "y": 128
+        },
+        {
+            "height": 16,
+            "id": 481,
+            "name": "enemy",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "goomba",
+            "visible": true,
+            "width": 16,
+            "x": 2560,
+            "y": 192
+        },
+        {
+            "height": 16,
+            "id": 482,
+            "name": "enemy",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "goomba",
+            "visible": true,
+            "width": 16,
+            "x": 2528,
+            "y": 192
+        },
+        {
+            "height": 16,
+            "id": 483,
+            "name": "enemy",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "goomba",
+            "visible": true,
+            "width": 16,
+            "x": 2784,
+            "y": 128
+        },
+        
+        {
+            "height": 16,
+            "id": 526,
+            "name": "item",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": -576,
+            "y": 192
+        },
+        {
+            "height": 16,
+            "id": 527,
+            "name": "item",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": -560,
+            "y": 192
+        },
+        {
+            "height": 16,
+            "id": 528,
+            "name": "item",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": -544,
+            "y": 192
+        },
+        {
+            "height": 16,
+            "id": 529,
+            "name": "item",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": -528,
+            "y": 192
+        },
+        {
+            "height": 16,
+            "id": 530,
+            "name": "item",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": -512,
+            "y": 192
+        },
+        {
+            "height": 16,
+            "id": 531,
+            "name": "item",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": -496,
+            "y": 192
+        },
+        {
+            "height": 16,
+            "id": 532,
+            "name": "item",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": -480,
+            "y": 192
+        },
+        {
+            "height": 16,
+            "id": 533,
+            "name": "item",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": -464,
+            "y": 192
+        },
+        {
+            "height": 16,
+            "id": 534,
+            "name": "item",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": -592,
+            "y": 256
+        },
+        {
+            "height": 16,
+            "id": 535,
+            "name": "item",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": -576,
+            "y": 256
+        },
+        {
+            "height": 16,
+            "id": 536,
+            "name": "item",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": -560,
+            "y": 256
+        },
+        {
+            "height": 16,
+            "id": 537,
+            "name": "item",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": -544,
+            "y": 256
+        },
+        {
+            "height": 16,
+            "id": 538,
+            "name": "item",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": -528,
+            "y": 256
+        },
+        {
+            "height": 16,
+            "id": 539,
+            "name": "item",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": -512,
+            "y": 256
+        },
+        {
+            "height": 16,
+            "id": 540,
+            "name": "item",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": -496,
+            "y": 256
+        },
+        {
+            "height": 16,
+            "id": 541,
+            "name": "item",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": -480,
+            "y": 256
+        },
+        {
+            "height": 16,
+            "id": 542,
+            "name": "item",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": -464,
+            "y": 256
+        },
+        {
+            "height": 16,
+            "id": 543,
+            "name": "item",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 528,
+            "y": 128
+        },
+        {
+            "height": 16,
+            "id": 544,
+            "name": "item",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 544,
+            "y": 128
+        },
+        {
+            "height": 16,
+            "id": 545,
+            "name": "item",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 560,
+            "y": 128
+        },
+        {
+            "height": 16,
+            "id": 546,
+            "name": "item",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 576,
+            "y": 128
+        },
+        {
+            "height": 16,
+            "id": 547,
+            "name": "item",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 592,
+            "y": 128
+        },
+        {
+            "height": 16,
+            "id": 548,
+            "name": "item",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 608,
+            "y": 128
+        },
+        {
+            "height": 16,
+            "id": 549,
+            "name": "item",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 624,
+            "y": 128
+        },
+        {
+            "height": 16,
+            "id": 550,
+            "name": "item",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 640,
+            "y": 128
+        },
+        {
+            "height": 16,
+            "id": 560,
+            "name": "item",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 2624,
+            "y": 128
+        },
+        {
+            "height": 16,
+            "id": 561,
+            "name": "item",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 2880,
+            "y": 80
+        },
+        {
+            "height": 16,
+            "id": 562,
+            "name": "item",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 2896,
+            "y": 80
+        },
+        {
+            "height": 16,
+            "id": 563,
+            "name": "item",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 2912,
+            "y": 80
+        },
+        {
+            "height": 16,
+            "id": 564,
+            "name": "item",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 2928,
+            "y": 80
+        },
+        {
+            "height": 16,
+            "id": 565,
+            "name": "item",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 2944,
+            "y": 80
+        },
+        {
+            "height": 16,
+            "id": 566,
+            "name": "item",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 2960,
+            "y": 80
+        },
+        {
+            "height": 16,
+            "id": 567,
+            "name": "enemy",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "goomba",
+            "visible": true,
+            "width": 16,
+            "x": 3344,
+            "y": 192
+        },
+        {
+            "height": 16,
+            "id": 568,
+            "name": "enemy",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "goomba",
+            "visible": true,
+            "width": 16,
+            "x": 3104,
+            "y": 192
+        },
+        {
+            "height": 16,
+            "id": 569,
+            "name": "enemy",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "goomba",
+            "visible": true,
+            "width": 16,
+            "x": 3136,
+            "y": 192
+        },
+        {
+            "height": 16,
+            "id": 570,
+            "name": "enemy",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "goomba",
+            "visible": true,
+            "width": 16,
+            "x": 3168,
+            "y": 192
+        },
+        {
+            "height": 16,
+            "id": 571,
+            "name": "enemy",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "goomba",
+            "visible": true,
+            "width": 16,
+            "x": 2752,
+            "y": 128
+        },
+        {
+            "height": 16,
+            "id": 572,
+            "name": "enemy",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "goomba",
+            "visible": true,
+            "width": 16,
+            "x": 2704,
+            "y": 64
+        },
+        {
+            "height": 16,
+            "id": 573,
+            "name": "enemy",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "goomba",
+            "visible": true,
+            "width": 16,
+            "x": 2000,
+            "y": 192
+        },
+        {
+            "height": 16,
+            "id": 574,
+            "name": "enemy",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "goomba",
+            "visible": true,
+            "width": 16,
+            "x": 1808,
+            "y": 176
+        },
+        {
+            "height": 16,
+            "id": 575,
+            "name": "enemy",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "goomba",
+            "visible": true,
+            "width": 16,
+            "x": 1792,
+            "y": 192
+        },
+        {
+            "height": 16,
+            "id": 576,
+            "name": "tile",
+            "properties": [
+                {
+                    "name": "breakable",
+                    "type": "bool",
+                    "value": false
+                },
+                {
+                    "name": "item",
+                    "type": "string",
+                    "value": "star"
+                },
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2272,
+            "y": 112
+        }
+    ]
+}

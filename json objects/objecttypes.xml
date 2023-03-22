@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objecttypes>
+ <objecttype name="axe" color="#7c7c80">
+  <property name="triggered" type="bool" default="false"/>
+ </objecttype>
+ <objecttype name="beetle" color="#181d50">
+  <property name="variant" type="int" default="0"/>
+ </objecttype>
+ <objecttype name="block" color="#fff000">
+  <property name="hidden" type="bool" default="false"/>
+  <property name="hitsLeft" type="int" default="1"/>
+  <property name="item" type="string"/>
+  <property name="variant" type="int" default="0"/>
+ </objecttype>
+ <objecttype name="blooper" color="#a0a0a4">
+  <property name="variant" type="int" default="0"/>
+ </objecttype>
+ <objecttype name="bowser" color="#115d00"/>
+ <objecttype name="brick" color="#ff5500">
+  <property name="breakable" type="bool" default="true"/>
+  <property name="hitsLeft" type="string" default="1"/>
+  <property name="item" type="string" default=""/>
+  <property name="variant" type="int" default="0"/>
+ </objecttype>
+ <objecttype name="bridge" color="#fbb043"/>
+ <objecttype name="castleBridge" color="#4b4b4d">
+  <property name="stable" type="bool" default="false"/>
+ </objecttype>
+ <objecttype name="cheep" color="#47b3b3">
+  <property name="variant" type="int" default="0"/>
+ </objecttype>
+ <objecttype name="coin" color="#fff987">
+  <property name="variant" type="int" default="0"/>
+ </objecttype>
+ <objecttype name="drop" color="#000000"/>
+ <objecttype name="dropPlatform" color="#92743d"/>
+ <objecttype name="fireball" color="#b35800"/>
+ <objecttype name="fireBar" color="#b34b0f"/>
+ <objecttype name="fireBreath" color="#b37106"/>
+ <objecttype name="flagpole" color="#b35ea6">
+  <property name="variant" type="int" default="0"/>
+ </objecttype>
+ <objecttype name="goomba" color="#b3009a">
+  <property name="variant" type="int" default="0"/>
+ </objecttype>
+ <objecttype name="ground" color="#7d511d"/>
+ <objecttype name="gun" color="#000000">
+  <property name="cooldown" type="int" default="30"/>
+  <property name="direction" type="int" default="-1"/>
+  <property name="timer" type="float" default="30"/>
+ </objecttype>
+ <objecttype name="hammerBro" color="#5700b3">
+  <property name="variant" type="int" default="0"/>
+ </objecttype>
+ <objecttype name="info" color="#f9f8ff">
+  <property name="Text" type="string"/>
+ </objecttype>
+ <objecttype name="koopa" color="#00b34d">
+  <property name="variant" type="int" default="0"/>
+  <property name="winged" type="bool" default="false"/>
+ </objecttype>
+ <objecttype name="lakitu" color="#b3ad00">
+  <property name="throw" type="string" default="spikey"/>
+  <property name="variant" type="int" default="0"/>
+ </objecttype>
+ <objecttype name="lava" color="#ff7700"/>
+ <objecttype name="movingPlatform" color="#8a8134">
+  <property name="variant" type="int" default="0"/>
+  <property name="xSpeed" type="float" default="0"/>
+  <property name="ySpeed" type="float" default="0"/>
+ </objecttype>
+ <objecttype name="movingPlatformSpawner" color="#80700f">
+  <property name="interval" type="float" default="0"/>
+  <property name="startFromSpawn" type="int" default="0"/>
+  <property name="variant" type="int" default="0"/>
+  <property name="xSpeed" type="float" default="0"/>
+  <property name="ySpeed" type="float" default="0"/>
+ </objecttype>
+ <objecttype name="pipe" color="#009a05">
+  <property name="direction" type="string" default="down"/>
+  <property name="enemy" type="string"/>
+  <property name="goToPipe" type="string" default=""/>
+  <property name="hasEnemy" type="bool" default="false"/>
+ </objecttype>
+ <objecttype name="pit" color="#000000"/>
+ <objecttype name="plant" color="#53b300">
+  <property name="fire" type="bool" default="false"/>
+  <property name="variant" type="int" default="0"/>
+ </objecttype>
+ <objecttype name="platformBalance" color="#947b27">
+  <property name="left" type="int" default="64"/>
+  <property name="right" type="int" default="128"/>
+ </objecttype>
+ <objecttype name="redCheep" color="#66120e"/>
+ <objecttype name="spikey" color="#b30035"/>
+ <objecttype name="spring" color="#59b39b">
+  <property name="super" type="bool" default="false"/>
+ </objecttype>
+ <objecttype name="textbox" color="#a0a0a4">
+  <property name="line" type="string"/>
+ </objecttype>
+ <objecttype name="water" color="#0853ff"/>
+ <objecttype name="worldPipe" color="#068300">
+  <property name="world" type="int" default="0"/>
+ </objecttype>
+ <objecttype name="zone" color="#0098b3">
+  <property name="music" type="string"/>
+  <property name="theme" type="string"/>
+ </objecttype>
+</objecttypes>

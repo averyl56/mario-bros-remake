@@ -1,0 +1,607 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "tiled level jsons/1/level2.json",
+    "expandedProjectPaths": [
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "": {
+            "scaleInDock": 1
+        },
+        "enemies.tsx": {
+            "scaleInDock": 1.0711,
+            "scaleInEditor": 0.56
+        },
+        "entities.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 0.015625
+        },
+        "font.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1.48,
+            "scaleInEditor": 0.56
+        },
+        "fonts.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "gay.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "items.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1.48,
+            "scaleInEditor": 0.56
+        },
+        "layout pngs/mariobros5-2grid.tsx": {
+            "scaleInDock": 0.2921,
+            "scaleInEditor": 1
+        },
+        "layout pngs/mariobros5-3grid.tsx": {
+            "scaleInDock": 0.6008,
+            "scaleInEditor": 1
+        },
+        "layouts/level1-2.tmx": {
+            "scale": 1.16,
+            "selectedLayer": 7,
+            "viewCenter": {
+                "x": 2385.344827586207,
+                "y": 447.41379310344826
+            }
+        },
+        "layouts/level1-3.tmx": {
+            "scale": 0.78,
+            "selectedLayer": 6,
+            "viewCenter": {
+                "x": 2088.461538461538,
+                "y": 216.66666666666666
+            }
+        },
+        "layouts/level1-4.tmx": {
+            "scale": 0.15576171875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 2914.7084639498435,
+                "y": 500.76489028213155
+            }
+        },
+        "layouts/level2-1.tmx": {
+            "scale": 0.77,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 3763.6363636363635,
+                "y": 232.4675324675325
+            }
+        },
+        "layouts/level2-2.tmx": {
+            "scale": 2.19,
+            "selectedLayer": 6,
+            "viewCenter": {
+                "x": 2586.75799086758,
+                "y": 255.25114155251143
+            }
+        },
+        "layouts/level2-3.tmx": {
+            "scale": 0.23,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 2282.6086956521735,
+                "y": 330.43478260869574
+            }
+        },
+        "layouts/level2-4.tmx": {
+            "scale": 2.57,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 2204.669260700389,
+                "y": 108.56031128404669
+            }
+        },
+        "layouts/level2.tmx": {
+            "scale": 1.17,
+            "selectedLayer": 7,
+            "viewCenter": {
+                "x": -282.90598290598297,
+                "y": 317.94871794871796
+            }
+        },
+        "layouts/level3-1.tmx": {
+            "scale": 1.249,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 1724.5796637309845,
+                "y": 179.3434747798238
+            }
+        },
+        "layouts/level3-2.tmx": {
+            "scale": 0.82,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 2986.5853658536585,
+                "y": 203.65853658536582
+            }
+        },
+        "layouts/level3-3.tmx": {
+            "scale": 0.8256,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 627.422480620155,
+                "y": 259.2054263565891
+            }
+        },
+        "layouts/level3-4.tmx": {
+            "scale": 1.04,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 2264.4230769230767,
+                "y": 262.5
+            }
+        },
+        "layouts/level4-1.tmx": {
+            "scale": 1.58,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 1410.1265822784808,
+                "y": 187.3417721518987
+            }
+        },
+        "layouts/level4-2.tmx": {
+            "scale": 1.0772,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 5375.974749350167,
+                "y": 86.33494244337174
+            }
+        },
+        "layouts/level4-3.tmx": {
+            "scale": 1.0634,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 590.5585856686102,
+                "y": 73.34963325183375
+            }
+        },
+        "layouts/level4-4.tmx": {
+            "scale": 1.93,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 2720.7253886010367,
+                "y": 157.5129533678757
+            }
+        },
+        "layouts/level5-1.tmx": {
+            "scale": 1.0037,
+            "selectedLayer": -1,
+            "viewCenter": {
+                "x": 3748.131911925874,
+                "y": 182.3253960346717
+            }
+        },
+        "layouts/level5-2.tmx": {
+            "scale": 0.977,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 895.5987717502558,
+                "y": 90.07164790174
+            }
+        },
+        "layouts/level5-3.tmx": {
+            "scale": 0.8473,
+            "selectedLayer": -1,
+            "viewCenter": {
+                "x": 811.9910303316417,
+                "y": 133.3648058538888
+            }
+        },
+        "layouts/level5-4.tmx": {
+            "scale": 1.46,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 406.8493150684932,
+                "y": 132.1917808219178
+            }
+        },
+        "layouts/level6-1.tmx": {
+            "scale": 0.7,
+            "selectedLayer": -1,
+            "viewCenter": {
+                "x": 2851.4285714285716,
+                "y": 218.5714285714286
+            }
+        },
+        "layouts/level6-2.tmx": {
+            "scale": 1.5713,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 4599.376312607395,
+                "y": 169.9229936994845
+            }
+        },
+        "layouts/level6-3.tmx": {
+            "scale": 1.5034,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 2659.970733005188,
+                "y": 110.41638951709457
+            }
+        },
+        "layouts/level6-4.tmx": {
+            "scale": 1.6563,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 2130.0489041840247,
+                "y": 110.48723057417133
+            }
+        },
+        "layouts/level7-1.tmx": {
+            "scale": 0.97,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 2402.0618556701033,
+                "y": 93.81443298969074
+            }
+        },
+        "layouts/level7-2.tmx": {
+            "scale": 1.004,
+            "selectedLayer": -1,
+            "viewCenter": {
+                "x": 238.0478087649402,
+                "y": 171.31474103585657
+            }
+        },
+        "layouts/level7-3.tmx": {
+            "scale": 1.3853,
+            "selectedLayer": -1,
+            "viewCenter": {
+                "x": 2530.137876272288,
+                "y": 176.13513318414783
+            }
+        },
+        "layouts/level7-4.tmx": {
+            "scale": 1.1077,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 3457.614877674461,
+                "y": 95.69377990430627
+            }
+        },
+        "layouts/level8-1.tmx": {
+            "scale": 1.09,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 3439.4495412844035,
+                "y": 168.80733944954127
+            }
+        },
+        "layouts/level8-2.tmx": {
+            "scale": 0.9263,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 2159.127712404189,
+                "y": 168.41196156752673
+            }
+        },
+        "layouts/level8-3.tmx": {
+            "scale": 1.1734,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 1999.3182205556502,
+                "y": 169.59263678200102
+            }
+        },
+        "layouts/level8-4.tmx": {
+            "scale": 0.9155,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 2361.551064991808,
+                "y": 117.96832332058986
+            }
+        },
+        "level grids/1-1 grid.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1.48,
+            "scaleInEditor": 0.015625
+        },
+        "level grids/1-2 grid.tsx": {
+            "scaleInDock": 0.3789,
+            "scaleInEditor": 1
+        },
+        "level grids/1-4grid.tmx": {
+            "scale": 2.152,
+            "selectedLayer": 6,
+            "viewCenter": {
+                "x": 1526.9516728624535,
+                "y": 106.87732342007436
+            }
+        },
+        "level grids/2-1grid.tsx": {
+            "scaleInDock": 0.2725,
+            "scaleInEditor": 0.83
+        },
+        "level grids/2-2grid.tsx": {
+            "scaleInDock": 0.1895,
+            "scaleInEditor": 1
+        },
+        "level grids/2-3grid.tsx": {
+            "scaleInDock": 0.3059,
+            "scaleInEditor": 1
+        },
+        "level grids/2-4grid.tsx": {
+            "scaleInDock": 0.6569,
+            "scaleInEditor": 1
+        },
+        "level grids/3-1grid.tsx": {
+            "scaleInDock": 0.4546,
+            "scaleInEditor": 0.56
+        },
+        "level grids/mariobros1-3grid.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "level grids/mariobros1-4grid.tsx": {
+            "scaleInDock": 0.1492,
+            "scaleInEditor": 1.59
+        },
+        "level grids/mariobros3-2grid.tsx": {
+            "scaleInDock": 0.6139,
+            "scaleInEditor": 1
+        },
+        "level grids/mariobros3-3grid.tsx": {
+            "scaleInDock": 0.681,
+            "scaleInEditor": 1
+        },
+        "level grids/mariobros3-4grid.tsx": {
+            "scaleInDock": 0.6258,
+            "scaleInEditor": 1
+        },
+        "level grids/mariobros4-1grid.tsx": {
+            "scaleInDock": 0.6204,
+            "scaleInEditor": 0.82
+        },
+        "level grids/mariobros4-2grid.tsx": {
+            "scaleInDock": 0.4375,
+            "scaleInEditor": 0.82
+        },
+        "level grids/mariobros4-3grid.tsx": {
+            "scaleInDock": 0.2611,
+            "scaleInEditor": 0.82
+        },
+        "level grids/mariobros4-4grid.tsx": {
+            "scaleInDock": 0.5144,
+            "scaleInEditor": 0.82
+        },
+        "level grids/mariobros5-1grid.tsx": {
+            "scaleInDock": 0.3924,
+            "scaleInEditor": 1
+        },
+        "level grids/mariobros5-4grid.tsx": {
+            "scaleInDock": 0.6101,
+            "scaleInEditor": 1
+        },
+        "level grids/mariobros6-1grid.tsx": {
+            "scaleInDock": 0.6185,
+            "scaleInEditor": 1
+        },
+        "level grids/mariobros6-2grid.tsx": {
+            "scaleInDock": 0.5199,
+            "scaleInEditor": 1
+        },
+        "level grids/mariobros6-3grid.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "level grids/mariobros6-4grid.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "level grids/mariobros7-1grid.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "level grids/mariobros7-2grid.tsx": {
+            "scaleInDock": 0.5757,
+            "scaleInEditor": 1
+        },
+        "level grids/mariobros7-3grid.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "level grids/mariobros7-4grid.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "level grids/mariobros8-1grid.tsx": {
+            "scaleInDock": 0.5588,
+            "scaleInEditor": 1
+        },
+        "level grids/mariobros8-2grid.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "level grids/mariobros8-3grid.tsx": {
+            "scaleInDock": 0.3327,
+            "scaleInEditor": 1
+        },
+        "level grids/mariobros8-4grid.tsx": {
+            "scaleInDock": 0.7834,
+            "scaleInEditor": 1
+        },
+        "level1.tmx": {
+            "scale": 1.19,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 3186.5546218487398,
+                "y": 174.78991596638656
+            }
+        },
+        "levels/1/level1.json": {
+            "scale": 1.42,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 3863.3802816901416,
+                "y": 120.4225352112676
+            }
+        },
+        "player.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1.48,
+            "scaleInEditor": 0.56
+        },
+        "small items.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 2.7546,
+            "scaleInEditor": 0.56
+        },
+        "spawnpoints.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1.48,
+            "scaleInEditor": 0.56
+        },
+        "spritesheets/enemies.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1.3618,
+            "scaleInEditor": 1
+        },
+        "spritesheets/entities.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1
+        },
+        "spritesheets/font.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 2.64
+        },
+        "spritesheets/items.tsx": {
+            "scaleInDock": 1.5476,
+            "scaleInEditor": 1
+        },
+        "spritesheets/player.tsx": {
+            "scaleInDock": 2.0907,
+            "scaleInEditor": 2.64
+        },
+        "spritesheets/small items.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1.75
+        },
+        "spritesheets/spawnpoints.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1.75
+        },
+        "spritesheets/tiles.tsx": {
+            "scaleInDock": 1.0327,
+            "scaleInEditor": 1
+        },
+        "tiled level jsons/1/level1.json": {
+            "scale": 1.0569,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 3649.3518781341663,
+                "y": 188.28649824959786
+            }
+        },
+        "tiled level jsons/1/level2.json": {
+            "scale": 1.073,
+            "selectedLayer": 7,
+            "viewCenter": {
+                "x": 4350.419384902144,
+                "y": 236.71947809878847
+            }
+        },
+        "tiled level jsons/1/level4.json": {
+            "scale": 1.7546,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 2029.5223982674115,
+                "y": 167.55955773395647
+            }
+        },
+        "tiled level jsons/2/level2.json": {
+            "scale": 1.26,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 3142.8571428571427,
+                "y": 254.76190476190476
+            }
+        },
+        "tiled level jsons/2/level4.json": {
+            "scale": 1.34,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 1288.0597014925372,
+                "y": 205.2238805970149
+            }
+        },
+        "tiled level jsons/7/level3.json": {
+            "scale": 1.51,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 278.8079470198676,
+                "y": 177.48344370860931
+            }
+        },
+        "tiled level jsons/7/level4.json": {
+            "scale": 1.7013,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 264.5036148827367,
+                "y": 104.62587433139365
+            }
+        },
+        "tiles.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 0.7638,
+            "scaleInEditor": 0.56
+        }
+    },
+    "last.exportedFilePath": "/Users/averylindseth/Desktop/code projects/stolen mario bros/levels/8/level4",
+    "last.externalTilesetPath": "/Users/averylindseth/Desktop/code projects/stolen mario bros/spritesheets",
+    "last.imagePath": "/Users/averylindseth/Desktop/code projects/stolen mario bros/layout pngs",
+    "last.objectTypesPath": "/Users/averylindseth/Desktop/code projects/stolen mario bros/json objects/objecttypes.xml",
+    "last.worldFilePath": "/Users/averylindseth/Desktop/code projects/stolen mario bros/levels/1",
+    "loadedWorlds": [
+        "/Users/averylindseth/Desktop/code projects/stolen mario bros/levels/1/level1.world"
+    ],
+    "map.height": 21,
+    "map.lastUsedExportFilter": "CSV files (*.csv)",
+    "map.lastUsedFormat": "tmx",
+    "map.renderOrder": null,
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 380,
+    "openFiles": [
+        "spritesheets/items.tsx",
+        "spritesheets/enemies.tsx",
+        "spritesheets/tiles.tsx",
+        "tiled level jsons/1/level2.json"
+    ],
+    "project": "stolen mario bros.tiled-project",
+    "property.type": "bool",
+    "recentFiles": [
+        "spritesheets/items.tsx",
+        "spritesheets/enemies.tsx",
+        "spritesheets/tiles.tsx",
+        "tiled level jsons/1/level2.json",
+        "layouts/level8-1.tmx",
+        "layouts/level8-2.tmx",
+        "layouts/level8-3.tmx",
+        "layouts/level8-4.tmx",
+        "level grids/mariobros8-4grid.tsx",
+        "level grids/mariobros8-3grid.tsx",
+        "level grids/mariobros8-2grid.tsx",
+        "level grids/mariobros8-1grid.tsx"
+    ],
+    "tileset.lastUsedFilter": "Tiled tileset files (*.tsx *.xml)",
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    },
+    "tileset.type": 0
+}

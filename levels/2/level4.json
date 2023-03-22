@@ -1,0 +1,880 @@
+{
+    "world": "2",
+    "level": "4",
+    "backgroundColor": "#000000",
+    "height": 21,
+    "width": 380,
+    "tileScale": 16,
+    "sky": "./levels/2/level4/level4_sky.csv",
+    "background": "./levels/2/level4/level4_background.csv",
+    "ground": "./levels/2/level4/level4_ground.csv",
+    "renderOnTop": "./levels/2/level4/level4_renderOnTop.csv",
+    "zones": [
+        {
+            "name": "mainLevel",
+            "x": 0,
+            "y": 0,
+            "width": 2560,
+            "height": 240,
+            "theme": "castle",
+            "music": "castle"
+        }
+    ],
+    "spawns": [
+        {
+            "height": 16,
+            "id": 2,
+            "name": "",
+            "properties": [
+                {
+                    "name": "item",
+                    "type": "string",
+                    "value": "fireFlower"
+                },
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 2
+                }
+            ],
+            "rotation": 0,
+            "type": "block",
+            "visible": true,
+            "width": 16,
+            "x": 368,
+            "y": 48
+        },
+        {
+            "height": 16,
+            "id": 57,
+            "name": "",
+            "rotation": 0,
+            "type": "start",
+            "visible": true,
+            "width": 16,
+            "x": 32,
+            "y": 96
+        },
+        {
+            "height": 16,
+            "id": 3,
+            "name": "",
+            "properties": [
+                {
+                    "name": "length",
+                    "type": "int",
+                    "value": 6
+                }
+            ],
+            "rotation": 0,
+            "type": "fireBar",
+            "visible": true,
+            "width": 16,
+            "x": 784,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 4,
+            "name": "",
+            "properties": [
+                {
+                    "name": "length",
+                    "type": "int",
+                    "value": 6
+                }
+            ],
+            "rotation": 0,
+            "type": "fireBar",
+            "visible": true,
+            "width": 16,
+            "x": 880,
+            "y": 80
+        },
+        {
+            "height": 16,
+            "id": 5,
+            "name": "",
+            "properties": [
+                {
+                    "name": "length",
+                    "type": "int",
+                    "value": 6
+                }
+            ],
+            "rotation": 0,
+            "type": "fireBar",
+            "visible": true,
+            "width": 16,
+            "x": 976,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 6,
+            "name": "",
+            "properties": [
+                {
+                    "name": "length",
+                    "type": "int",
+                    "value": 6
+                }
+            ],
+            "rotation": 0,
+            "type": "fireBar",
+            "visible": true,
+            "width": 16,
+            "x": 1168,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 7,
+            "name": "",
+            "properties": [
+                {
+                    "name": "length",
+                    "type": "int",
+                    "value": 6
+                }
+            ],
+            "rotation": 0,
+            "type": "fireBar",
+            "visible": true,
+            "width": 16,
+            "x": 1312,
+            "y": 96
+        },
+        {
+            "height": 16,
+            "id": 8,
+            "name": "",
+            "properties": [
+                {
+                    "name": "clockwise",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "name": "length",
+                    "type": "int",
+                    "value": 6
+                }
+            ],
+            "rotation": 0,
+            "type": "fireBar",
+            "visible": true,
+            "width": 16,
+            "x": 1472,
+            "y": 160
+        },
+        {
+            "height": 16,
+            "id": 9,
+            "name": "",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 2
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2048,
+            "y": 80
+        },
+        {
+            "height": 16,
+            "id": 10,
+            "name": "",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 2
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2064,
+            "y": 80
+        },
+        {
+            "height": 16,
+            "id": 11,
+            "name": "",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 2
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2080,
+            "y": 80
+        },
+        {
+            "height": 16,
+            "id": 12,
+            "name": "",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 2
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2096,
+            "y": 80
+        },
+        {
+            "height": 16,
+            "id": 13,
+            "name": "",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 2
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2112,
+            "y": 80
+        },
+        {
+            "height": 16,
+            "id": 14,
+            "name": "",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 2
+                }
+            ],
+            "rotation": 0,
+            "type": "brick",
+            "visible": true,
+            "width": 16,
+            "x": 2128,
+            "y": 80
+        },
+        {
+            "height": 16,
+            "id": 15,
+            "name": "axe1_bowser",
+            "rotation": 0,
+            "type": "bowser",
+            "visible": true,
+            "width": 16,
+            "x": 2176,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 16,
+            "name": "axe1",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 2
+                }
+            ],
+            "rotation": 0,
+            "type": "axe",
+            "visible": true,
+            "width": 16,
+            "x": 2256,
+            "y": 128
+        },
+        {
+            "height": 16,
+            "id": 17,
+            "name": "axe1",
+            "properties": [
+                {
+                    "name": "order",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "castleBridge",
+            "visible": true,
+            "width": 16,
+            "x": 2048,
+            "y": 160
+        },
+        {
+            "height": 16,
+            "id": 18,
+            "name": "axe1",
+            "properties": [
+                {
+                    "name": "order",
+                    "type": "int",
+                    "value": 2
+                }
+            ],
+            "rotation": 0,
+            "type": "castleBridge",
+            "visible": true,
+            "width": 16,
+            "x": 2064,
+            "y": 160
+        },
+        {
+            "height": 16,
+            "id": 19,
+            "name": "axe1",
+            "properties": [
+                {
+                    "name": "order",
+                    "type": "int",
+                    "value": 3
+                }
+            ],
+            "rotation": 0,
+            "type": "castleBridge",
+            "visible": true,
+            "width": 16,
+            "x": 2080,
+            "y": 160
+        },
+        {
+            "height": 16,
+            "id": 20,
+            "name": "axe1",
+            "properties": [
+                {
+                    "name": "order",
+                    "type": "int",
+                    "value": 4
+                }
+            ],
+            "rotation": 0,
+            "type": "castleBridge",
+            "visible": true,
+            "width": 16,
+            "x": 2096,
+            "y": 160
+        },
+        {
+            "height": 16,
+            "id": 21,
+            "name": "axe1",
+            "properties": [
+                {
+                    "name": "order",
+                    "type": "int",
+                    "value": 5
+                }
+            ],
+            "rotation": 0,
+            "type": "castleBridge",
+            "visible": true,
+            "width": 16,
+            "x": 2112,
+            "y": 160
+        },
+        {
+            "height": 16,
+            "id": 22,
+            "name": "axe1",
+            "properties": [
+                {
+                    "name": "order",
+                    "type": "int",
+                    "value": 6
+                }
+            ],
+            "rotation": 0,
+            "type": "castleBridge",
+            "visible": true,
+            "width": 16,
+            "x": 2128,
+            "y": 160
+        },
+        {
+            "height": 16,
+            "id": 23,
+            "name": "axe1",
+            "properties": [
+                {
+                    "name": "order",
+                    "type": "int",
+                    "value": 7
+                }
+            ],
+            "rotation": 0,
+            "type": "castleBridge",
+            "visible": true,
+            "width": 16,
+            "x": 2144,
+            "y": 160
+        },
+        {
+            "height": 16,
+            "id": 24,
+            "name": "axe1",
+            "properties": [
+                {
+                    "name": "order",
+                    "type": "int",
+                    "value": 8
+                }
+            ],
+            "rotation": 0,
+            "type": "castleBridge",
+            "visible": true,
+            "width": 16,
+            "x": 2160,
+            "y": 160
+        },
+        {
+            "height": 16,
+            "id": 25,
+            "name": "axe1",
+            "properties": [
+                {
+                    "name": "order",
+                    "type": "int",
+                    "value": 9
+                }
+            ],
+            "rotation": 0,
+            "type": "castleBridge",
+            "visible": true,
+            "width": 16,
+            "x": 2176,
+            "y": 160
+        },
+        {
+            "height": 16,
+            "id": 26,
+            "name": "axe1",
+            "properties": [
+                {
+                    "name": "order",
+                    "type": "int",
+                    "value": 10
+                }
+            ],
+            "rotation": 0,
+            "type": "castleBridge",
+            "visible": true,
+            "width": 16,
+            "x": 2192,
+            "y": 160
+        },
+        {
+            "height": 16,
+            "id": 27,
+            "name": "axe1",
+            "properties": [
+                {
+                    "name": "order",
+                    "type": "int",
+                    "value": 11
+                }
+            ],
+            "rotation": 0,
+            "type": "castleBridge",
+            "visible": true,
+            "width": 16,
+            "x": 2208,
+            "y": 160
+        },
+        {
+            "height": 16,
+            "id": 28,
+            "name": "axe1",
+            "properties": [
+                {
+                    "name": "order",
+                    "type": "int",
+                    "value": 12
+                }
+            ],
+            "rotation": 0,
+            "type": "castleBridge",
+            "visible": true,
+            "width": 16,
+            "x": 2224,
+            "y": 160
+        },
+        {
+            "height": 16,
+            "id": 29,
+            "name": "axe1",
+            "properties": [
+                {
+                    "name": "order",
+                    "type": "int",
+                    "value": 13
+                }
+            ],
+            "rotation": 0,
+            "type": "castleBridge",
+            "visible": true,
+            "width": 16,
+            "x": 2240,
+            "y": 160
+        },
+        {
+            "height": 16,
+            "id": 30,
+            "name": "toad",
+            "rotation": 0,
+            "type": "npc",
+            "visible": true,
+            "width": 16,
+            "x": 2448,
+            "y": 192
+        },
+        {
+            "height": 16,
+            "id": 32,
+            "name": "",
+            "rotation": 0,
+            "type": "fireBreath",
+            "visible": true,
+            "width": 16,
+            "x": 2048,
+            "y": 112
+        },
+        {
+            "height": 16,
+            "id": 33,
+            "name": "",
+            "rotation": 0,
+            "type": "fireBreath",
+            "visible": true,
+            "width": 16,
+            "x": 1824,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 34,
+            "name": "",
+            "rotation": 0,
+            "type": "fireBreath",
+            "visible": true,
+            "width": 16,
+            "x": 1600,
+            "y": 112
+        },
+        {
+            "height": 16,
+            "id": 35,
+            "name": "",
+            "properties": [
+                {
+                    "name": "jumpHeight",
+                    "type": "int",
+                    "value": 300
+                }
+            ],
+            "rotation": 0,
+            "type": "podoboo",
+            "visible": true,
+            "width": 16,
+            "x": 256,
+            "y": 240
+        },
+        {
+            "height": 16,
+            "id": 37,
+            "name": "",
+            "properties": [
+                {
+                    "name": "jumpHeight",
+                    "type": "int",
+                    "value": 300
+                }
+            ],
+            "rotation": 0,
+            "type": "podoboo",
+            "visible": true,
+            "width": 16,
+            "x": 480,
+            "y": 240
+        },
+        {
+            "height": 16,
+            "id": 38,
+            "name": "",
+            "rotation": 0,
+            "type": "lava",
+            "visible": true,
+            "width": 256,
+            "x": 256,
+            "y": 208
+        },
+        {
+            "height": 16,
+            "id": 39,
+            "name": "",
+            "rotation": 0,
+            "type": "pit",
+            "visible": true,
+            "width": 128,
+            "x": 1344,
+            "y": 288
+        },
+        {
+            "height": 16,
+            "id": 40,
+            "name": "",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 2
+                }
+            ],
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 1632,
+            "y": 128
+        },
+        {
+            "height": 16,
+            "id": 41,
+            "name": "",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 2
+                }
+            ],
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 1648,
+            "y": 128
+        },
+        {
+            "height": 16,
+            "id": 42,
+            "name": "",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 2
+                }
+            ],
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 1664,
+            "y": 128
+        },
+        {
+            "height": 16,
+            "id": 43,
+            "name": "",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 2
+                }
+            ],
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 1664,
+            "y": 192
+        },
+        {
+            "height": 16,
+            "id": 44,
+            "name": "",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 2
+                }
+            ],
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 1648,
+            "y": 192
+        },
+        {
+            "height": 16,
+            "id": 45,
+            "name": "",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 2
+                }
+            ],
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 1632,
+            "y": 192
+        },
+        {
+            "height": 16,
+            "id": 46,
+            "name": "",
+            "rotation": 0,
+            "type": "lava",
+            "visible": true,
+            "width": 32,
+            "x": 1808,
+            "y": 208
+        },
+        {
+            "height": 16,
+            "id": 47,
+            "name": "",
+            "rotation": 0,
+            "type": "lava",
+            "visible": true,
+            "width": 32,
+            "x": 1744,
+            "y": 208
+        },
+        {
+            "height": 16,
+            "id": 48,
+            "name": "",
+            "properties": [
+                {
+                    "name": "x0",
+                    "type": "int",
+                    "value": 2224
+                },
+                {
+                    "name": "x1",
+                    "type": "int",
+                    "value": 2160
+                },
+                {
+                    "name": "xSpeed",
+                    "type": "float",
+                    "value": -1
+                },
+                {
+                    "name": "y0",
+                    "type": "int",
+                    "value": 96
+                },
+                {
+                    "name": "y1",
+                    "type": "int",
+                    "value": 96
+                }
+            ],
+            "rotation": 0,
+            "type": "movingPlatform",
+            "visible": true,
+            "width": 32,
+            "x": 2224,
+            "y": 96
+        },
+        {
+            "height": 16,
+            "id": 50,
+            "name": "",
+            "properties": [
+                {
+                    "name": "endPath",
+                    "type": "int",
+                    "value": 240
+                },
+                {
+                    "name": "interval",
+                    "type": "float",
+                    "value": 100
+                },
+                {
+                    "name": "ySpeed",
+                    "type": "float",
+                    "value": 4
+                }
+            ],
+            "rotation": 0,
+            "type": "movingPlatformSpawner",
+            "visible": true,
+            "width": 16,
+            "x": 1424,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 51,
+            "name": "",
+            "properties": [
+                {
+                    "name": "endPath",
+                    "type": "int",
+                    "value": 32
+                },
+                {
+                    "name": "interval",
+                    "type": "float",
+                    "value": 100
+                },
+                {
+                    "name": "ySpeed",
+                    "type": "float",
+                    "value": -4
+                }
+            ],
+            "rotation": 0,
+            "type": "movingPlatformSpawner",
+            "visible": true,
+            "width": 16,
+            "x": 1376,
+            "y": 224
+        },
+        {
+            "height": 16,
+            "id": 56,
+            "name": "",
+            "rotation": 0,
+            "type": "lava",
+            "visible": true,
+            "width": 208,
+            "x": 2048,
+            "y": 208
+        }
+    ]
+}

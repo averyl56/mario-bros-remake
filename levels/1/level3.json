@@ -1,0 +1,625 @@
+{
+    "world": "1",
+    "level": "3",
+    "backgroundColor": "#4f85e9",
+    "height": 21,
+    "width": 178,
+    "tileScale": 16,
+    "sky": "./levels/1/level3/level3_sky.csv",
+    "background": "./levels/1/level3/level3_background.csv",
+    "ground": "./levels/1/level3/level3_ground.csv",
+    "renderOnTop": "./levels/1/level3/level3_renderOnTop.csv",
+    "zones": [
+        {
+            "name": "mainLevel",
+            "x": 0,
+            "y": 0,
+            "width": 2816,
+            "height": 240,
+            "theme": "overworld",
+            "music": "overworld"
+        }
+    ],
+    "spawns": [
+        {
+            "height": 16,
+            "id": 1,
+            "name": "",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 3
+                }
+            ],
+            "rotation": 0,
+            "type": "koopa",
+            "visible": true,
+            "width": 16,
+            "x": 480,
+            "y": 64
+        },
+        {
+            "height": 16,
+            "id": 2,
+            "name": "",
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 464,
+            "y": 64
+        },
+        {
+            "height": 16,
+            "id": 3,
+            "name": "",
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 432,
+            "y": 64
+        },
+        {
+            "height": 16,
+            "id": 4,
+            "name": "",
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 448,
+            "y": 64
+        },
+        {
+            "height": 16,
+            "id": 5,
+            "name": "",
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 592,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 6,
+            "name": "",
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 608,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 7,
+            "name": "",
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 528,
+            "y": 176
+        },
+        {
+            "height": 16,
+            "id": 8,
+            "name": "",
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 800,
+            "y": 96
+        },
+        {
+            "height": 16,
+            "id": 9,
+            "name": "",
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 816,
+            "y": 96
+        },
+        {
+            "height": 16,
+            "id": 10,
+            "name": "",
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 960,
+            "y": 64
+        },
+        {
+            "height": 16,
+            "id": 11,
+            "name": "",
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 976,
+            "y": 64
+        },
+        {
+            "height": 16,
+            "id": 12,
+            "name": "",
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 992,
+            "y": 64
+        },
+        {
+            "height": 16,
+            "id": 13,
+            "name": "",
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 1008,
+            "y": 64
+        },
+        {
+            "height": 16,
+            "id": 14,
+            "name": "",
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 1360,
+            "y": 80
+        },
+        {
+            "height": 16,
+            "id": 15,
+            "name": "",
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 1376,
+            "y": 80
+        },
+        {
+            "height": 16,
+            "id": 16,
+            "name": "",
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 1488,
+            "y": 64
+        },
+        {
+            "height": 16,
+            "id": 17,
+            "name": "",
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 1504,
+            "y": 64
+        },
+        {
+            "height": 16,
+            "id": 18,
+            "name": "",
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 1552,
+            "y": 64
+        },
+        {
+            "height": 16,
+            "id": 19,
+            "name": "",
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 1568,
+            "y": 64
+        },
+        {
+            "height": 16,
+            "id": 20,
+            "name": "",
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 1808,
+            "y": 192
+        },
+        {
+            "height": 16,
+            "id": 21,
+            "name": "",
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 1824,
+            "y": 192
+        },
+        {
+            "height": 16,
+            "id": 22,
+            "name": "",
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 1840,
+            "y": 192
+        },
+        {
+            "height": 16,
+            "id": 23,
+            "name": "",
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 1920,
+            "y": 80
+        },
+        {
+            "height": 16,
+            "id": 24,
+            "name": "",
+            "rotation": 0,
+            "type": "coin",
+            "visible": true,
+            "width": 16,
+            "x": 1936,
+            "y": 80
+        },
+        {
+            "height": 16,
+            "id": 25,
+            "name": "",
+            "rotation": 0,
+            "type": "goomba",
+            "visible": true,
+            "width": 16,
+            "x": 736,
+            "y": 48
+        },
+        {
+            "height": 16,
+            "id": 26,
+            "name": "",
+            "rotation": 0,
+            "type": "goomba",
+            "visible": true,
+            "width": 16,
+            "x": 704,
+            "y": 48
+        },
+        {
+            "height": 16,
+            "id": 27,
+            "name": "",
+            "rotation": 0,
+            "type": "goomba",
+            "visible": true,
+            "width": 16,
+            "x": 1280,
+            "y": 80
+        },
+        {
+            "height": 16,
+            "id": 28,
+            "name": "",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 3
+                }
+            ],
+            "rotation": 0,
+            "type": "koopa",
+            "visible": true,
+            "width": 16,
+            "x": 1760,
+            "y": 96
+        },
+        {
+            "height": 16,
+            "id": 29,
+            "name": "",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 3
+                }
+            ],
+            "rotation": 0,
+            "type": "koopa",
+            "visible": true,
+            "width": 16,
+            "x": 2128,
+            "y": 192
+        },
+        {
+            "height": 16,
+            "id": 31,
+            "name": "",
+            "properties": [
+                {
+                    "name": "item",
+                    "type": "string",
+                    "value": "redMushroom"
+                }
+            ],
+            "rotation": 0,
+            "type": "block",
+            "visible": true,
+            "width": 16,
+            "x": 944,
+            "y": 160
+        },
+        {
+            "height": 16,
+            "id": 32,
+            "name": "",
+            "rotation": 0,
+            "type": "finish",
+            "visible": true,
+            "width": 16,
+            "x": 2576,
+            "y": 192
+        },
+        {
+            "height": 160,
+            "id": 33,
+            "name": "",
+            "rotation": 0,
+            "type": "flagpole",
+            "visible": true,
+            "width": 16,
+            "x": 2432,
+            "y": 32
+        },
+        {
+            "height": 16,
+            "id": 34,
+            "name": "",
+            "rotation": 0,
+            "type": "start",
+            "visible": true,
+            "width": 16,
+            "x": 32,
+            "y": 192
+        },
+        {
+            "height": 16,
+            "id": 35,
+            "name": "",
+            "rotation": 0,
+            "type": "pit",
+            "visible": true,
+            "width": 1808,
+            "x": 256,
+            "y": 288
+        },
+        {
+            "height": 16,
+            "id": 36,
+            "name": "",
+            "properties": [
+                {
+                    "name": "x0",
+                    "type": "int",
+                    "value": 880
+                },
+                {
+                    "name": "x1",
+                    "type": "int",
+                    "value": 880
+                },
+                {
+                    "name": "y0",
+                    "type": "int",
+                    "value": 96
+                },
+                {
+                    "name": "y1",
+                    "type": "int",
+                    "value": 224
+                },
+                {
+                    "name": "ySpeed",
+                    "type": "float",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "movingPlatform",
+            "visible": true,
+            "width": 48,
+            "x": 880,
+            "y": 96
+        },
+        {
+            "height": 16,
+            "id": 38,
+            "name": "",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 3
+                },
+                {
+                    "name": "winged",
+                    "type": "bool",
+                    "value": true
+                }
+            ],
+            "rotation": 0,
+            "type": "koopa",
+            "visible": true,
+            "width": 16,
+            "x": 1184,
+            "y": 64
+        },
+        {
+            "height": 16,
+            "id": 42,
+            "name": "",
+            "properties": [
+                {
+                    "name": "x0",
+                    "type": "int",
+                    "value": 1376
+                },
+                {
+                    "name": "x1",
+                    "type": "int",
+                    "value": 1312
+                },
+                {
+                    "name": "xSpeed",
+                    "type": "float",
+                    "value": -1
+                },
+                {
+                    "name": "y0",
+                    "type": "int",
+                    "value": 128
+                },
+                {
+                    "name": "y1",
+                    "type": "int",
+                    "value": 128
+                }
+            ],
+            "rotation": 0,
+            "type": "movingPlatform",
+            "visible": true,
+            "width": 48,
+            "x": 1376,
+            "y": 128
+        },
+        {
+            "height": 16,
+            "id": 43,
+            "name": "",
+            "properties": [
+                {
+                    "name": "x0",
+                    "type": "int",
+                    "value": 1504
+                },
+                {
+                    "name": "x1",
+                    "type": "int",
+                    "value": 1456
+                },
+                {
+                    "name": "xSpeed",
+                    "type": "float",
+                    "value": -1
+                },
+                {
+                    "name": "y0",
+                    "type": "int",
+                    "value": 144
+                },
+                {
+                    "name": "y1",
+                    "type": "int",
+                    "value": 144
+                }
+            ],
+            "rotation": 0,
+            "type": "movingPlatform",
+            "visible": true,
+            "width": 48,
+            "x": 1504,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 45,
+            "name": "",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 3
+                },
+                {
+                    "name": "winged",
+                    "type": "bool",
+                    "value": true
+                }
+            ],
+            "rotation": 0,
+            "type": "koopa",
+            "visible": true,
+            "width": 16,
+            "x": 1824,
+            "y": 80
+        },
+        {
+            "height": 16,
+            "id": 48,
+            "name": "",
+            "properties": [
+                {
+                    "name": "x0",
+                    "type": "int",
+                    "value": 2096
+                },
+                {
+                    "name": "x1",
+                    "type": "int",
+                    "value": 2048
+                },
+                {
+                    "name": "xSpeed",
+                    "type": "float",
+                    "value": -1
+                },
+                {
+                    "name": "y0",
+                    "type": "int",
+                    "value": 96
+                },
+                {
+                    "name": "y1",
+                    "type": "int",
+                    "value": 96
+                }
+            ],
+            "rotation": 0,
+            "type": "movingPlatform",
+            "visible": true,
+            "width": 48,
+            "x": 2096,
+            "y": 96
+        }
+    ]
+}

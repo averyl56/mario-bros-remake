@@ -1,0 +1,539 @@
+{
+    "spriteSheetURL": "./textures/players.png",
+    "type":"player",
+    "size":16,
+    "sprites":[
+        {
+            "name": "small-mario-idle",
+            "x": 0,
+            "y": 0,
+            "width": 1,
+            "height": 1
+        },
+        {
+            "name": "small-mario-run-1",
+            "x": 1,
+            "y": 0,
+            "width": 1,
+            "height": 1
+        },
+        {
+            "name": "small-mario-run-2",
+            "x": 2,
+            "y": 0,
+            "width": 1,
+            "height": 1
+        },
+        {
+            "name": "small-mario-run-3",
+            "x": 3,
+            "y": 0,
+            "width": 1,
+            "height": 1
+        },
+        {
+            "name": "small-mario-slide",
+            "x": 4,
+            "y": 0,
+            "width": 1,
+            "height": 1
+        },
+        {
+            "name": "small-mario-jump",
+            "x": 5,
+            "y": 0,
+            "width": 1,
+            "height": 1
+        },
+        {
+            "name": "mario-death",
+            "x": 6,
+            "y": 0,
+            "width": 1,
+            "height": 1
+        },
+        {
+            "name": "small-mario-climb-1",
+            "x": 7,
+            "y": 0,
+            "width": 1,
+            "height": 1
+        },
+        {
+            "name": "small-mario-climb-2",
+            "x": 8,
+            "y": 0,
+            "width": 1,
+            "height": 1
+        },
+        {
+            "name": "small-mario-swim-idle",
+            "x": 9,
+            "y": 0,
+            "width": 1,
+            "height": 1
+        },
+        {
+            "name": "small-mario-swim-1",
+            "x": 10,
+            "y": 0,
+            "width": 1,
+            "height": 1
+        },
+        {
+            "name": "small-mario-swim-2",
+            "x": 11,
+            "y": 0,
+            "width": 1,
+            "height": 1
+        },
+        {
+            "name": "small-mario-swim-3",
+            "x": 12,
+            "y": 0,
+            "width": 1,
+            "height": 1
+        },
+        {
+            "name": "small-mario-swim-4",
+            "x": 13,
+            "y": 0,
+            "width": 1,
+            "height": 1
+        },
+        {
+            "name": "big-mario-idle",
+            "x": 0,
+            "y": 1,
+            "width": 1,
+            "height": 2
+        },
+        {
+            "name": "big-mario-run-1",
+            "x": 1,
+            "y": 1,
+            "width": 1,
+            "height": 2
+        },
+        {
+            "name": "big-mario-run-2",
+            "x": 2,
+            "y": 1,
+            "width": 1,
+            "height": 2
+        },
+        {
+            "name": "big-mario-run-3",
+            "x": 3,
+            "y": 1,
+            "width": 1,
+            "height": 2
+        },
+        {
+            "name": "big-mario-slide",
+            "x": 4,
+            "y": 1,
+            "width": 1,
+            "height": 2
+        },
+        {
+            "name": "big-mario-jump",
+            "x": 5,
+            "y": 1,
+            "width": 1,
+            "height": 2
+        },
+        {
+            "name": "mario-duck",
+            "x": 6,
+            "y": 1.5,
+            "width": 1,
+            "height": 1.5
+        },
+        {
+            "name": "big-mario-climb-1",
+            "x": 7,
+            "y": 1,
+            "width": 1,
+            "height": 2
+        },
+        {
+            "name": "big-mario-climb-2",
+            "x": 8,
+            "y": 1,
+            "width": 1,
+            "height": 1
+        },
+        {
+            "name": "big-mario-swim-idle",
+            "x": 9,
+            "y": 1,
+            "width": 1,
+            "height": 2
+        },
+        {
+            "name": "big-mario-swim-1",
+            "x": 10,
+            "y": 1,
+            "width": 1,
+            "height": 2
+        },
+        {
+            "name": "big-mario-swim-2",
+            "x": 11,
+            "y": 1,
+            "width": 1,
+            "height": 2
+        },
+        {
+            "name": "big-mario-swim-3",
+            "x": 12,
+            "y": 1,
+            "width": 1,
+            "height": 2
+        },
+        {
+            "name": "big-mario-swim-4",
+            "x": 13,
+            "y": 1,
+            "width": 1,
+            "height": 2
+        },
+        {
+            "name": "big-mario-swim-5",
+            "x": 14,
+            "y": 1,
+            "width": 1,
+            "height": 2
+        },
+        {
+            "name": "mario-shrink",
+            "x": 15,
+            "y": 1,
+            "width": 1,
+            "height": 2
+        },
+        {
+            "name": "small-luigi-idle",
+            "x": 0,
+            "y": 3,
+            "width": 1,
+            "height": 1
+        },
+        {
+            "name": "small-luigi-run-1",
+            "x": 1,
+            "y": 3,
+            "width": 1,
+            "height": 1
+        },
+        {
+            "name": "small-luigi-run-2",
+            "x": 2,
+            "y": 3,
+            "width": 1,
+            "height": 1
+        },
+        {
+            "name": "small-luigi-run-3",
+            "x": 3,
+            "y": 3,
+            "width": 1,
+            "height": 1
+        },
+        {
+            "name": "small-luigi-slide",
+            "x": 4,
+            "y": 3,
+            "width": 1,
+            "height": 1
+        },
+        {
+            "name": "small-luigi-jump",
+            "x": 5,
+            "y": 3,
+            "width": 1,
+            "height": 1
+        },
+        {
+            "name": "luigi-death",
+            "x": 6,
+            "y": 3,
+            "width": 1,
+            "height": 1
+        },
+        {
+            "name": "small-luigi-climb-1",
+            "x": 7,
+            "y": 3,
+            "width": 1,
+            "height": 1
+        },
+        {
+            "name": "small-luigi-climb-2",
+            "x": 8,
+            "y": 3,
+            "width": 1,
+            "height": 1
+        },
+        {
+            "name": "small-luigi-swim-idle",
+            "x": 9,
+            "y": 3,
+            "width": 1,
+            "height": 1
+        },
+        {
+            "name": "small-luigi-swim-1",
+            "x": 10,
+            "y": 3,
+            "width": 1,
+            "height": 1
+        },
+        {
+            "name": "small-luigi-swim-2",
+            "x": 11,
+            "y": 3,
+            "width": 1,
+            "height": 1
+        },
+        {
+            "name": "small-luigi-swim-3",
+            "x": 12,
+            "y": 3,
+            "width": 1,
+            "height": 1
+        },
+        {
+            "name": "small-luigi-swim-4",
+            "x": 13,
+            "y": 3,
+            "width": 1,
+            "height": 1
+        },
+        {
+            "name": "big-luigi-idle",
+            "x": 0,
+            "y": 4,
+            "width": 1,
+            "height": 2
+        },
+        {
+            "name": "big-luigi-run-1",
+            "x": 1,
+            "y": 4,
+            "width": 1,
+            "height": 2
+        },
+        {
+            "name": "big-luigi-run-2",
+            "x": 2,
+            "y": 4,
+            "width": 1,
+            "height": 2
+        },
+        {
+            "name": "big-luigi-run-3",
+            "x": 3,
+            "y": 4,
+            "width": 1,
+            "height": 2
+        },
+        {
+            "name": "big-luigi-slide",
+            "x": 4,
+            "y": 4,
+            "width": 1,
+            "height": 2
+        },
+        {
+            "name": "big-luigi-jump",
+            "x": 5,
+            "y": 4,
+            "width": 1,
+            "height": 2
+        },
+        {
+            "name": "luigi-duck",
+            "x": 6,
+            "y": 4.5,
+            "width": 1,
+            "height": 1.5
+        },
+        {
+            "name": "big-luigi-climb-1",
+            "x": 7,
+            "y": 4,
+            "width": 1,
+            "height": 2
+        },
+        {
+            "name": "big-luigi-climb-2",
+            "x": 8,
+            "y": 4,
+            "width": 1,
+            "height": 2
+        },
+        {
+            "name": "big-luigi-swim-idle",
+            "x": 9,
+            "y": 4,
+            "width": 1,
+            "height": 2
+        },
+        {
+            "name": "big-luigi-swim-1",
+            "x": 10,
+            "y": 4,
+            "width": 1,
+            "height": 2
+        },
+        {
+            "name": "big-luigi-swim-2",
+            "x": 11,
+            "y": 4,
+            "width": 1,
+            "height": 2
+        },
+        {
+            "name": "big-luigi-swim-3",
+            "x": 12,
+            "y": 4,
+            "width": 1,
+            "height": 2
+        },
+        {
+            "name": "big-luigi-swim-4",
+            "x": 13,
+            "y": 4,
+            "width": 1,
+            "height": 2
+        },
+        {
+            "name": "big-luigi-swim-5",
+            "x": 14,
+            "y": 4,
+            "width": 1,
+            "height": 2
+        },
+        {
+            "name": "luigi-shrink",
+            "x": 15,
+            "y": 4,
+            "width": 1,
+            "height": 2
+        },
+        {
+            "name": "fire-idle",
+            "x": 0,
+            "y": 6,
+            "width": 1,
+            "height": 2
+        },
+        {
+            "name": "fire-run-1",
+            "x": 1,
+            "y": 6,
+            "width": 1,
+            "height": 2
+        },
+        {
+            "name": "fire-run-2",
+            "x": 2,
+            "y": 6,
+            "width": 1,
+            "height": 2
+        },
+        {
+            "name": "fire-run-3",
+            "x": 3,
+            "y": 6,
+            "width": 1,
+            "height": 2
+        },
+        {
+            "name": "fire-slide",
+            "x": 4,
+            "y": 6,
+            "width": 1,
+            "height": 2
+        },
+        {
+            "name": "fire-jump",
+            "x": 5,
+            "y": 6,
+            "width": 1,
+            "height": 2
+        },
+        {
+            "name": "fire-duck",
+            "x": 6,
+            "y": 6.5,
+            "width": 1,
+            "height": 1.5
+        },
+        {
+            "name": "fire-climb-1",
+            "x": 7,
+            "y": 6,
+            "width": 1,
+            "height": 2
+        },
+        {
+            "name": "fire-climb-2",
+            "x": 8,
+            "y": 6,
+            "width": 1,
+            "height": 2
+        },
+        {
+            "name": "fire-swim-idle",
+            "x": 9,
+            "y": 6,
+            "width": 1,
+            "height": 2
+        },
+        {
+            "name": "fire-swim-1",
+            "x": 10,
+            "y": 6,
+            "width": 1,
+            "height": 2
+        },
+        {
+            "name": "fire-swim-2",
+            "x": 11,
+            "y": 6,
+            "width": 1,
+            "height": 2
+        },
+        {
+            "name": "fire-swim-3",
+            "x": 12,
+            "y": 6,
+            "width": 1,
+            "height": 2
+        },
+        {
+            "name": "fire-swim-4",
+            "x": 13,
+            "y": 6,
+            "width": 1,
+            "height": 2
+        },
+        {
+            "name": "fire-swim-5",
+            "x": 14,
+            "y": 6,
+            "width": 1,
+            "height": 2
+        },
+        {
+            "name": "fire-throw",
+            "x": 15,
+            "y": 6,
+            "width": 1,
+            "height": 2
+        }
+    ]
+}

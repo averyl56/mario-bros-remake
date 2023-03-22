@@ -1,0 +1,1538 @@
+{
+    "world": "8",
+    "level": "4",
+    "backgroundColor": "#000000",
+    "height": 21,
+    "width": 500,
+    "tileScale": 16,
+    "sky": "./levels/8/level4/level4_sky.csv",
+    "background": "./levels/8/level4/level4_background.csv",
+    "ground": "./levels/8/level4/level4_ground.csv",
+    "renderOnTop": "./levels/8/level4/level4_renderOnTop.csv",
+    "zones": [
+        {
+            "name": "mainLevel",
+            "x": 0,
+            "y": 0,
+            "width": 4976,
+            "height": 240,
+            "theme": "castle",
+            "music": "castle"
+        },
+        {
+            "name": "finalBoss",
+            "x": 5040,
+            "y": 0,
+            "width": 1104,
+            "height": 240,
+            "theme": "castle",
+            "music": "castle"
+        },
+        {
+            "name": "subLevel",
+            "x": 6208,
+            "y": 0,
+            "width": 1152,
+            "height": 240,
+            "theme": "underwater",
+            "music": "underwater"
+        }
+    ],
+    "spawns": [
+        {
+            "height": 16,
+            "id": 1,
+            "name": "",
+            "rotation": 0,
+            "type": "lava",
+            "visible": true,
+            "width": 80,
+            "x": 96,
+            "y": 208
+        },
+        {
+            "height": 32,
+            "id": 2,
+            "name": "exit1",
+            "properties": [
+                {
+                    "name": "direction",
+                    "type": "string",
+                    "value": "down"
+                },
+                {
+                    "name": "enemy",
+                    "type": "string",
+                    "value": "plant"
+                },
+                {
+                    "name": "hasEnemy",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "pipe",
+            "visible": true,
+            "width": 32,
+            "x": 304,
+            "y": 176
+        },
+        {
+            "height": 32,
+            "id": 3,
+            "name": "entrance1",
+            "properties": [
+                {
+                    "name": "direction",
+                    "type": "string",
+                    "value": "down"
+                },
+                {
+                    "name": "enemy",
+                    "type": "string",
+                    "value": "plant"
+                },
+                {
+                    "name": "goToPipe",
+                    "type": "string",
+                    "value": "exit1"
+                },
+                {
+                    "name": "hasEnemy",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "pipe",
+            "visible": true,
+            "width": 32,
+            "x": 816,
+            "y": 176
+        },
+        {
+            "height": 32,
+            "id": 4,
+            "name": "entrance2",
+            "properties": [
+                {
+                    "name": "direction",
+                    "type": "string",
+                    "value": "down"
+                },
+                {
+                    "name": "enemy",
+                    "type": "string",
+                    "value": "plant"
+                },
+                {
+                    "name": "goToPipe",
+                    "type": "string",
+                    "value": "exit2"
+                },
+                {
+                    "name": "hasEnemy",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "pipe",
+            "visible": true,
+            "width": 32,
+            "x": 1296,
+            "y": 128
+        },
+        {
+            "height": 32,
+            "id": 5,
+            "name": "exit2",
+            "properties": [
+                {
+                    "name": "direction",
+                    "type": "string",
+                    "value": "down"
+                },
+                {
+                    "name": "enemy",
+                    "type": "string",
+                    "value": "plant"
+                },
+                {
+                    "name": "hasEnemy",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "pipe",
+            "visible": true,
+            "width": 32,
+            "x": 2016,
+            "y": 176
+        },
+        {
+            "height": 32,
+            "id": 6,
+            "name": "",
+            "properties": [
+                {
+                    "name": "direction",
+                    "type": "string",
+                    "value": "down"
+                },
+                {
+                    "name": "enemy",
+                    "type": "string",
+                    "value": "plant"
+                },
+                {
+                    "name": "hasEnemy",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "pipe",
+            "visible": true,
+            "width": 32,
+            "x": 2128,
+            "y": 160
+        },
+        {
+            "height": 32,
+            "id": 7,
+            "name": "entrance1",
+            "properties": [
+                {
+                    "name": "direction",
+                    "type": "string",
+                    "value": "down"
+                },
+                {
+                    "name": "enemy",
+                    "type": "string",
+                    "value": "plant"
+                },
+                {
+                    "name": "goToPipe",
+                    "type": "string",
+                    "value": "exit1"
+                },
+                {
+                    "name": "hasEnemy",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "pipe",
+            "visible": true,
+            "width": 32,
+            "x": 2288,
+            "y": 176
+        },
+        {
+            "height": 32,
+            "id": 8,
+            "name": "",
+            "properties": [
+                {
+                    "name": "direction",
+                    "type": "string",
+                    "value": "down"
+                },
+                {
+                    "name": "enemy",
+                    "type": "string",
+                    "value": "plant"
+                },
+                {
+                    "name": "hasEnemy",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "pipe",
+            "visible": true,
+            "width": 32,
+            "x": 2448,
+            "y": 160
+        },
+        {
+            "height": 32,
+            "id": 9,
+            "name": "entrance3",
+            "properties": [
+                {
+                    "name": "direction",
+                    "type": "string",
+                    "value": "down"
+                },
+                {
+                    "name": "enemy",
+                    "type": "string",
+                    "value": "plant"
+                },
+                {
+                    "name": "goToPipe",
+                    "type": "string",
+                    "value": "exit3"
+                },
+                {
+                    "name": "hasEnemy",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "pipe",
+            "visible": true,
+            "width": 32,
+            "x": 2608,
+            "y": 96
+        },
+        {
+            "height": 32,
+            "id": 10,
+            "name": "exit3",
+            "properties": [
+                {
+                    "name": "direction",
+                    "type": "string",
+                    "value": "down"
+                },
+                {
+                    "name": "enemy",
+                    "type": "string",
+                    "value": "plant"
+                },
+                {
+                    "name": "hasEnemy",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "pipe",
+            "visible": true,
+            "width": 32,
+            "x": 3296,
+            "y": 176
+        },
+        {
+            "height": 32,
+            "id": 11,
+            "name": "",
+            "properties": [
+                {
+                    "name": "direction",
+                    "type": "string",
+                    "value": "down"
+                },
+                {
+                    "name": "enemy",
+                    "type": "string",
+                    "value": "plant"
+                },
+                {
+                    "name": "hasEnemy",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "pipe",
+            "visible": true,
+            "width": 32,
+            "x": 3440,
+            "y": 128
+        },
+        {
+            "height": 32,
+            "id": 12,
+            "name": "entrance1",
+            "properties": [
+                {
+                    "name": "direction",
+                    "type": "string",
+                    "value": "down"
+                },
+                {
+                    "name": "enemy",
+                    "type": "string",
+                    "value": "plant"
+                },
+                {
+                    "name": "goToPipe",
+                    "type": "string",
+                    "value": "exit1"
+                },
+                {
+                    "name": "hasEnemy",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "pipe",
+            "visible": true,
+            "width": 32,
+            "x": 3568,
+            "y": 112
+        },
+        {
+            "height": 32,
+            "id": 13,
+            "name": "entrance4",
+            "properties": [
+                {
+                    "name": "direction",
+                    "type": "string",
+                    "value": "down"
+                },
+                {
+                    "name": "enemy",
+                    "type": "string",
+                    "value": "plant"
+                },
+                {
+                    "name": "goToPipe",
+                    "type": "string",
+                    "value": "exit4"
+                },
+                {
+                    "name": "hasEnemy",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "pipe",
+            "visible": true,
+            "width": 32,
+            "x": 3824,
+            "y": 128
+        },
+        {
+            "height": 32,
+            "id": 14,
+            "name": "",
+            "properties": [
+                {
+                    "name": "direction",
+                    "type": "string",
+                    "value": "down"
+                },
+                {
+                    "name": "enemy",
+                    "type": "string",
+                    "value": "plant"
+                },
+                {
+                    "name": "hasEnemy",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "pipe",
+            "visible": true,
+            "width": 32,
+            "x": 4320,
+            "y": 176
+        },
+        {
+            "height": 32,
+            "id": 15,
+            "name": "entrance1",
+            "properties": [
+                {
+                    "name": "direction",
+                    "type": "string",
+                    "value": "down"
+                },
+                {
+                    "name": "enemy",
+                    "type": "string",
+                    "value": "plant"
+                },
+                {
+                    "name": "goToPipe",
+                    "type": "string",
+                    "value": "exit1"
+                },
+                {
+                    "name": "hasEnemy",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "pipe",
+            "visible": true,
+            "width": 32,
+            "x": 4432,
+            "y": 176
+        },
+        {
+            "height": 32,
+            "id": 16,
+            "name": "exit5",
+            "properties": [
+                {
+                    "name": "direction",
+                    "type": "string",
+                    "value": "down"
+                },
+                {
+                    "name": "enemy",
+                    "type": "string",
+                    "value": "plant"
+                },
+                {
+                    "name": "hasEnemy",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "pipe",
+            "visible": true,
+            "width": 32,
+            "x": 5168,
+            "y": 176
+        },
+        {
+            "height": 32,
+            "id": 17,
+            "name": "entrance1",
+            "properties": [
+                {
+                    "name": "direction",
+                    "type": "string",
+                    "value": "down"
+                },
+                {
+                    "name": "enemy",
+                    "type": "string",
+                    "value": "plant"
+                },
+                {
+                    "name": "goToPipe",
+                    "type": "string",
+                    "value": "exit1"
+                },
+                {
+                    "name": "hasEnemy",
+                    "type": "bool",
+                    "value": true
+                },
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "pipe",
+            "visible": true,
+            "width": 32,
+            "x": 5280,
+            "y": 176
+        },
+        {
+            "height": 32,
+            "id": 18,
+            "name": "entrance5",
+            "properties": [
+                {
+                    "name": "direction",
+                    "type": "string",
+                    "value": "right"
+                },
+                {
+                    "name": "goToPipe",
+                    "type": "string",
+                    "value": "exit5"
+                }
+            ],
+            "rotation": 0,
+            "type": "pipe",
+            "visible": true,
+            "width": 32,
+            "x": 7296,
+            "y": 112
+        },
+        {
+            "height": 16,
+            "id": 19,
+            "name": "",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 2
+                }
+            ],
+            "rotation": 0,
+            "type": "blooper",
+            "visible": true,
+            "width": 16,
+            "x": 6656,
+            "y": 176
+        },
+        {
+            "height": 16,
+            "id": 20,
+            "name": "",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 2
+                }
+            ],
+            "rotation": 0,
+            "type": "blooper",
+            "visible": true,
+            "width": 16,
+            "x": 7024,
+            "y": 160
+        },
+        {
+            "height": 16,
+            "id": 21,
+            "name": "",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 2
+                }
+            ],
+            "rotation": 0,
+            "type": "blooper",
+            "visible": true,
+            "width": 16,
+            "x": 7056,
+            "y": 96
+        },
+        {
+            "height": 16,
+            "id": 22,
+            "name": "",
+            "rotation": 0,
+            "type": "fireBar",
+            "visible": true,
+            "width": 16,
+            "x": 7232,
+            "y": 112
+        },
+        {
+            "height": 16,
+            "id": 23,
+            "name": "",
+            "properties": [
+                {
+                    "name": "clockwise",
+                    "type": "bool",
+                    "value": true
+                }
+            ],
+            "rotation": 0,
+            "type": "fireBar",
+            "visible": true,
+            "width": 16,
+            "x": 7104,
+            "y": 128
+        },
+        {
+            "height": 16,
+            "id": 24,
+            "name": "",
+            "properties": [
+                {
+                    "name": "clockwise",
+                    "type": "bool",
+                    "value": true
+                }
+            ],
+            "rotation": 0,
+            "type": "fireBar",
+            "visible": true,
+            "width": 16,
+            "x": 6848,
+            "y": 96
+        },
+        {
+            "height": 16,
+            "id": 25,
+            "name": "",
+            "rotation": 0,
+            "type": "fireBar",
+            "visible": true,
+            "width": 16,
+            "x": 6704,
+            "y": 160
+        },
+        {
+            "height": 16,
+            "id": 26,
+            "name": "",
+            "properties": [
+                {
+                    "name": "clockwise",
+                    "type": "bool",
+                    "value": true
+                }
+            ],
+            "rotation": 0,
+            "type": "fireBar",
+            "visible": true,
+            "width": 16,
+            "x": 6528,
+            "y": 112
+        },
+        {
+            "height": 16,
+            "id": 27,
+            "name": "princess",
+            "rotation": 0,
+            "type": "npc",
+            "visible": true,
+            "width": 16,
+            "x": 6032,
+            "y": 192
+        },
+        {
+            "height": 16,
+            "id": 28,
+            "name": "axe1_bowser",
+            "properties": [
+                {
+                    "name": "hard",
+                    "type": "bool",
+                    "value": true
+                }
+            ],
+            "rotation": 0,
+            "type": "bowser",
+            "visible": true,
+            "width": 16,
+            "x": 5760,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 29,
+            "name": "axe1",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 2
+                }
+            ],
+            "rotation": 0,
+            "type": "axe",
+            "visible": true,
+            "width": 16,
+            "x": 5840,
+            "y": 128
+        },
+        {
+            "height": 16,
+            "id": 30,
+            "name": "",
+            "rotation": 0,
+            "type": "fireBreath",
+            "visible": true,
+            "width": 16,
+            "x": 5664,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 31,
+            "name": "axe1",
+            "properties": [
+                {
+                    "name": "order",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "castleBridge",
+            "visible": true,
+            "width": 16,
+            "x": 5632,
+            "y": 160
+        },
+        {
+            "height": 16,
+            "id": 32,
+            "name": "axe1",
+            "properties": [
+                {
+                    "name": "order",
+                    "type": "int",
+                    "value": 2
+                }
+            ],
+            "rotation": 0,
+            "type": "castleBridge",
+            "visible": true,
+            "width": 16,
+            "x": 5648,
+            "y": 160
+        },
+        {
+            "height": 16,
+            "id": 33,
+            "name": "axe1",
+            "properties": [
+                {
+                    "name": "order",
+                    "type": "int",
+                    "value": 3
+                }
+            ],
+            "rotation": 0,
+            "type": "castleBridge",
+            "visible": true,
+            "width": 16,
+            "x": 5664,
+            "y": 160
+        },
+        {
+            "height": 16,
+            "id": 34,
+            "name": "axe1",
+            "properties": [
+                {
+                    "name": "order",
+                    "type": "int",
+                    "value": 4
+                }
+            ],
+            "rotation": 0,
+            "type": "castleBridge",
+            "visible": true,
+            "width": 16,
+            "x": 5680,
+            "y": 160
+        },
+        {
+            "height": 16,
+            "id": 35,
+            "name": "axe1",
+            "properties": [
+                {
+                    "name": "order",
+                    "type": "int",
+                    "value": 5
+                }
+            ],
+            "rotation": 0,
+            "type": "castleBridge",
+            "visible": true,
+            "width": 16,
+            "x": 5696,
+            "y": 160
+        },
+        {
+            "height": 16,
+            "id": 36,
+            "name": "axe1",
+            "properties": [
+                {
+                    "name": "order",
+                    "type": "int",
+                    "value": 6
+                }
+            ],
+            "rotation": 0,
+            "type": "castleBridge",
+            "visible": true,
+            "width": 16,
+            "x": 5712,
+            "y": 160
+        },
+        {
+            "height": 16,
+            "id": 37,
+            "name": "axe1",
+            "properties": [
+                {
+                    "name": "order",
+                    "type": "int",
+                    "value": 7
+                }
+            ],
+            "rotation": 0,
+            "type": "castleBridge",
+            "visible": true,
+            "width": 16,
+            "x": 5728,
+            "y": 160
+        },
+        {
+            "height": 16,
+            "id": 38,
+            "name": "axe1",
+            "properties": [
+                {
+                    "name": "order",
+                    "type": "int",
+                    "value": 8
+                }
+            ],
+            "rotation": 0,
+            "type": "castleBridge",
+            "visible": true,
+            "width": 16,
+            "x": 5744,
+            "y": 160
+        },
+        {
+            "height": 16,
+            "id": 39,
+            "name": "axe1",
+            "properties": [
+                {
+                    "name": "order",
+                    "type": "int",
+                    "value": 9
+                }
+            ],
+            "rotation": 0,
+            "type": "castleBridge",
+            "visible": true,
+            "width": 16,
+            "x": 5760,
+            "y": 160
+        },
+        {
+            "height": 16,
+            "id": 40,
+            "name": "axe1",
+            "properties": [
+                {
+                    "name": "order",
+                    "type": "int",
+                    "value": 10
+                }
+            ],
+            "rotation": 0,
+            "type": "castleBridge",
+            "visible": true,
+            "width": 16,
+            "x": 5776,
+            "y": 160
+        },
+        {
+            "height": 16,
+            "id": 41,
+            "name": "axe1",
+            "properties": [
+                {
+                    "name": "order",
+                    "type": "int",
+                    "value": 11
+                }
+            ],
+            "rotation": 0,
+            "type": "castleBridge",
+            "visible": true,
+            "width": 16,
+            "x": 5792,
+            "y": 160
+        },
+        {
+            "height": 16,
+            "id": 42,
+            "name": "axe1",
+            "properties": [
+                {
+                    "name": "order",
+                    "type": "int",
+                    "value": 12
+                }
+            ],
+            "rotation": 0,
+            "type": "castleBridge",
+            "visible": true,
+            "width": 16,
+            "x": 5808,
+            "y": 160
+        },
+        {
+            "height": 16,
+            "id": 43,
+            "name": "axe1",
+            "properties": [
+                {
+                    "name": "order",
+                    "type": "int",
+                    "value": 13
+                }
+            ],
+            "rotation": 0,
+            "type": "castleBridge",
+            "visible": true,
+            "width": 16,
+            "x": 5824,
+            "y": 160
+        },
+        {
+            "height": 16,
+            "id": 44,
+            "name": "",
+            "properties": [
+                {
+                    "name": "x0",
+                    "type": "int",
+                    "value": 1168
+                },
+                {
+                    "name": "x1",
+                    "type": "int",
+                    "value": 1056
+                },
+                {
+                    "name": "xSpeed",
+                    "type": "float",
+                    "value": 1
+                },
+                {
+                    "name": "y0",
+                    "type": "int",
+                    "value": 208
+                },
+                {
+                    "name": "y1",
+                    "type": "int",
+                    "value": 208
+                }
+            ],
+            "rotation": 0,
+            "type": "movingPlatform",
+            "visible": true,
+            "width": 32,
+            "x": 1168,
+            "y": 208
+        },
+        {
+            "height": 16,
+            "id": 46,
+            "name": "",
+            "rotation": 0,
+            "type": "lava",
+            "visible": true,
+            "width": 144,
+            "x": 1056,
+            "y": 208
+        },
+        {
+            "height": 16,
+            "id": 47,
+            "name": "",
+            "properties": [
+                {
+                    "name": "jumpHeight",
+                    "type": "int",
+                    "value": 160
+                }
+            ],
+            "rotation": 0,
+            "type": "podoboo",
+            "visible": true,
+            "width": 16,
+            "x": 5488,
+            "y": 240
+        },
+        {
+            "height": 16,
+            "id": 48,
+            "name": "",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                }
+            ],
+            "rotation": 0,
+            "type": "hammerBro",
+            "visible": true,
+            "width": 16,
+            "x": 5392,
+            "y": 192
+        },
+        {
+            "height": 16,
+            "id": 49,
+            "name": "",
+            "rotation": 0,
+            "type": "lava",
+            "visible": true,
+            "width": 80,
+            "x": 5456,
+            "y": 208
+        },
+        {
+            "height": 16,
+            "id": 50,
+            "name": "",
+            "rotation": 0,
+            "type": "lava",
+            "visible": true,
+            "width": 208,
+            "x": 5632,
+            "y": 208
+        },
+        {
+            "height": 16,
+            "id": 51,
+            "name": "",
+            "rotation": 0,
+            "type": "cheepSpawner",
+            "visible": true,
+            "width": 320,
+            "x": 3344,
+            "y": 240
+        },
+        {
+            "height": 16,
+            "id": 52,
+            "name": "",
+            "rotation": 0,
+            "type": "cheepSpawner",
+            "visible": true,
+            "width": 320,
+            "x": 3664,
+            "y": 240
+        },
+        {
+            "height": 16,
+            "id": 53,
+            "name": "",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                },
+                {
+                    "name": "winged",
+                    "type": "bool",
+                    "value": true
+                }
+            ],
+            "rotation": 0,
+            "type": "koopa",
+            "visible": true,
+            "width": 16,
+            "x": 2720,
+            "y": 176
+        },
+        {
+            "height": 16,
+            "id": 54,
+            "name": "",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                },
+                {
+                    "name": "winged",
+                    "type": "bool",
+                    "value": true
+                }
+            ],
+            "rotation": 0,
+            "type": "koopa",
+            "visible": true,
+            "width": 16,
+            "x": 2672,
+            "y": 192
+        },
+        {
+            "height": 16,
+            "id": 55,
+            "name": "",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                },
+                {
+                    "name": "winged",
+                    "type": "bool",
+                    "value": true
+                }
+            ],
+            "rotation": 0,
+            "type": "koopa",
+            "visible": true,
+            "width": 16,
+            "x": 2432,
+            "y": 192
+        },
+        {
+            "height": 16,
+            "id": 56,
+            "name": "",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 1
+                },
+                {
+                    "name": "winged",
+                    "type": "bool",
+                    "value": true
+                }
+            ],
+            "rotation": 0,
+            "type": "koopa",
+            "visible": true,
+            "width": 16,
+            "x": 2400,
+            "y": 176
+        },
+        {
+            "height": 16,
+            "id": 57,
+            "name": "",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 2
+                }
+            ],
+            "rotation": 0,
+            "type": "beetle",
+            "visible": true,
+            "width": 16,
+            "x": 2256,
+            "y": 192
+        },
+        {
+            "height": 16,
+            "id": 58,
+            "name": "",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 2
+                }
+            ],
+            "rotation": 0,
+            "type": "beetle",
+            "visible": true,
+            "width": 16,
+            "x": 2224,
+            "y": 192
+        },
+        {
+            "height": 16,
+            "id": 59,
+            "name": "",
+            "properties": [
+                {
+                    "name": "hidden",
+                    "type": "bool",
+                    "value": true
+                }
+            ],
+            "rotation": 0,
+            "type": "block",
+            "visible": true,
+            "width": 16,
+            "x": 2576,
+            "y": 144
+        },
+        {
+            "height": 16,
+            "id": 60,
+            "name": "",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 2
+                }
+            ],
+            "rotation": 0,
+            "type": "goomba",
+            "visible": true,
+            "width": 16,
+            "x": 960,
+            "y": 192
+        },
+        {
+            "height": 16,
+            "id": 61,
+            "name": "",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 2
+                }
+            ],
+            "rotation": 0,
+            "type": "goomba",
+            "visible": true,
+            "width": 16,
+            "x": 928,
+            "y": 192
+        },
+        {
+            "height": 16,
+            "id": 62,
+            "name": "",
+            "properties": [
+                {
+                    "name": "variant",
+                    "type": "int",
+                    "value": 2
+                }
+            ],
+            "rotation": 0,
+            "type": "goomba",
+            "visible": true,
+            "width": 16,
+            "x": 896,
+            "y": 192
+        },
+        {
+            "height": 16,
+            "id": 63,
+            "name": "",
+            "rotation": 0,
+            "type": "start",
+            "visible": true,
+            "width": 16,
+            "x": 32,
+            "y": 96
+        },
+        {
+            "height": 16,
+            "id": 64,
+            "name": "",
+            "rotation": 0,
+            "type": "lava",
+            "visible": true,
+            "width": 64,
+            "x": 3696,
+            "y": 208
+        },
+        {
+            "height": 16,
+            "id": 65,
+            "name": "exit4",
+            "rotation": 0,
+            "type": "drop",
+            "visible": true,
+            "width": 16,
+            "x": 6256,
+            "y": 16
+        },
+        {
+            "height": 208,
+            "id": 67,
+            "name": "",
+            "rotation": 0,
+            "type": "water",
+            "visible": true,
+            "width": 1152,
+            "x": 6208,
+            "y": 32
+        },
+        {
+            "height": 160,
+            "id": 68,
+            "name": "E",
+            "properties": [
+                {
+                    "name": "goToPipe",
+                    "type": "string",
+                    "value": "exitD"
+                }
+            ],
+            "rotation": 0,
+            "type": "drop",
+            "visible": true,
+            "width": 16,
+            "x": 4720,
+            "y": 48
+        },
+        {
+            "height": 16,
+            "id": 69,
+            "name": "exitD",
+            "rotation": 0,
+            "type": "drop",
+            "visible": true,
+            "width": 16,
+            "x": 3024,
+            "y": 192
+        },
+        {
+            "height": 160,
+            "id": 70,
+            "name": "C",
+            "properties": [
+                {
+                    "name": "goToPipe",
+                    "type": "string",
+                    "value": "exitB"
+                }
+            ],
+            "rotation": 0,
+            "type": "drop",
+            "visible": true,
+            "width": 16,
+            "x": 2944,
+            "y": 48
+        },
+        {
+            "height": 160,
+            "id": 71,
+            "name": "B",
+            "properties": [
+                {
+                    "name": "goToPipe",
+                    "type": "string",
+                    "value": "exitA"
+                }
+            ],
+            "rotation": 0,
+            "type": "drop",
+            "visible": true,
+            "width": 16,
+            "x": 1744,
+            "y": 48
+        },
+        {
+            "height": 16,
+            "id": 72,
+            "name": "exitB",
+            "rotation": 0,
+            "type": "drop",
+            "visible": true,
+            "width": 16,
+            "x": 1808,
+            "y": 192
+        },
+        {
+            "height": 16,
+            "id": 73,
+            "name": "exitA",
+            "rotation": 0,
+            "type": "drop",
+            "visible": true,
+            "width": 16,
+            "x": 544,
+            "y": 192
+        },
+        {
+            "height": 16,
+            "id": 74,
+            "name": "",
+            "rotation": 0,
+            "type": "lava",
+            "visible": true,
+            "width": 48,
+            "x": 2480,
+            "y": 208
+        }
+    ]
+}
